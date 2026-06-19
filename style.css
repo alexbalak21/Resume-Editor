@@ -61,7 +61,6 @@ aside {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.15);
 }
 
@@ -77,10 +76,10 @@ aside {
 .aside-title::after {
     content: "";
     display: block;
-    width: 28px;
-    height: 2px;
+    width: 40px;
+    height: 4px;
     background: #fff;
-    margin-top: 6px;
+    margin-top: 5px;
 }
 
 .aside-block {
@@ -193,8 +192,8 @@ main {
 .section-title::after {
     content: "";
     display: block;
-    width: 36px;
-    height: 2px;
+    width: 40px;
+    height: 4px;
     background: #4A6FA5;
     margin-top: 4px;
 }
@@ -248,7 +247,7 @@ main {
 .timeline-item::before {
     content: "";
     position: absolute;
-    left: -23px;
+    left: -23.5px;
     top: 7px;
     width: 9px;
     height: 9px;
