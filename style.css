@@ -1,0 +1,10 @@
+#page {
+    border: 1px solid blue; /* for testing */
+}
+
+aside {
+    border: 1px solid red; /* for testing */
+    /* color : #674EA7  Base color for background of aside */
+    /* Linear gradient  */
+}   
+
