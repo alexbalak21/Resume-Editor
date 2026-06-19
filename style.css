@@ -218,9 +218,26 @@ main {
 .timeline {
     position: relative;
     padding-left: 18px;
-    border-left: 2px solid #4A6FA5;
-     padding-top: 6px
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
+
+/* The vertical line */
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: -2px;          /* same position as your border-left */
+    top: 7px;        /* <-- THIS controls how low the line starts */
+    bottom: 60px;      /* <-- THIS controls how high the line goes */
+    width: 2px;
+    background: #4A6FA5;
+}
+
+#experience .timeline::before {
+    bottom: 100px !important;
+}
+
+
 
 .timeline-item {
     position: relative;
@@ -232,7 +249,7 @@ main {
     content: "";
     position: absolute;
     left: -23px;
-    top: 5px;
+    top: 7px;
     width: 9px;
     height: 9px;
     border-radius: 50%;
