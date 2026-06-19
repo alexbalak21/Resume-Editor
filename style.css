@@ -43,10 +43,10 @@ aside {
     width: 35%;
     background: linear-gradient(180deg, #4A6FA5 0%, #674EA7 100%);
     color: #fff;
-    padding: 30px 22px;
+    padding: 22px 22px;
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 18px;
 }
 
 #photo-container {
@@ -84,9 +84,9 @@ aside {
 
 .aside-block {
     font-size: 12.5px;
-    line-height: 1.5;
+    line-height: 1.45;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    padding-bottom: 18px;
+    padding-bottom: 13px;
 }
 
 .aside-block:last-child {
@@ -129,7 +129,7 @@ aside {
    ========================================================== */
 main {
     width: 65%;
-    padding: 30px 32px;
+    padding: 22px 32px;
     color: #2b2b2b;
 }
 
@@ -138,8 +138,8 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 14px;
-    margin-bottom: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 #name {
@@ -200,19 +200,19 @@ main {
 }
 
 #contact {
-    margin-bottom: 22px;
+    margin-bottom: 14px;
 }
 
 .contact-grid {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     font-size: 12.5px;
 }
 
 #experience,
 #education {
-    margin-bottom: 22px;
+    margin-bottom: 14px;
 }
 
 /* ==========================================================
@@ -221,29 +221,30 @@ main {
 .timeline {
     position: relative;
     padding-left: 12px;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 12px;
+    padding-bottom: 10px;
 }
 
-/* Vertical line (pseudo-element) */
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+
+/* Vertical line */
 .timeline::before {
     content: "";
     position: absolute;
     left: -4px;
     top: 7px;
-    bottom: 60px;
-    width: 2px !important;
+    bottom: 50px;
+    width: 1px !important;
     background: #4A6FA5;
 }
 
 #experience .timeline::before {
-    bottom: 100px !important;
-}
-
-.timeline-item {
-    position: relative;
-    margin-bottom: 16px;
-    padding-left: 12px;
+    bottom: 90px !important;
 }
 
 /* DOTS */
@@ -252,8 +253,8 @@ main {
     position: absolute;
     left: -19px;
     top: 6px;
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: #4A6FA5;
 }
@@ -299,16 +300,28 @@ main {
         print-color-adjust: exact !important;
     }
 
-    body {
+    html, body {
         background: none !important;
         padding: 0 !important;
+        margin: 0 !important;
+        height: 297mm;
     }
 
     #page {
         width: 210mm !important;
-        min-height: 297mm !important;
+        height: 297mm !important;
+        min-height: 0 !important;
+        max-height: 297mm !important;
         box-shadow: none !important;
         margin: 0 !important;
+        overflow: hidden !important;
+        page-break-after: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    aside, main {
+        height: 297mm !important;
+        overflow: hidden !important;
     }
 
     @page {
