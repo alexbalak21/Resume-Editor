@@ -19,6 +19,17 @@ if (!file_exists($mdPath)) {
 }
 $md = file_get_contents($mdPath);
 
+function parseFaShortcodes(string $text): string
+{
+    return preg_replace_callback(
+        '/\[fa:(brands|solid|regular):([a-z0-9\-]+)\]/i',
+        fn($m) => '<i class="fa-' . $m[1] . ' fa-' . $m[2] . '"></i>',
+        $text
+    );
+}
+
+$md = parseFaShortcodes($md);
+
 $chunks = preg_split('/^# (.+)$/m', $md, -1, PREG_SPLIT_DELIM_CAPTURE);
 $sections = [];
 for ($i = 1; $i < count($chunks); $i += 2) {

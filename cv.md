@@ -15,12 +15,12 @@ Développeur **Java / Spring Boot** et **JavaScript / React**, capable de concev
 - Permis : Permis B
 
 # SKILLS
-- Java / Spring Boot
+- [fa:brands:java] Java / Spring Boot
 - JavaScript / TypeScript
-- React JS / Next.js
-- HTML / CSS / Tailwind CSS
+- [fa:brands:react] React JS / Next.js
+-  HTML / CSS / Tailwind CSS
 - Python / Flask / Django
-- SQL / MySQL / MongoDB
+- [fa:solid:database] SQL / MySQL / MongoDB
 - Git / GitHub Actions
 - Docker / Kubernetes
 

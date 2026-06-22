@@ -330,3 +330,12 @@ main {
         margin: 0;
     }
 }
+
+
+#skills ul li i,
+#certifications ul li i {
+    width: 18px;
+    text-align: center;
+    margin-right: 6px;
+    opacity: 0.9;
+}
