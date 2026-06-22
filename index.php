@@ -19,11 +19,19 @@ if (!file_exists($mdPath)) {
 }
 $md = file_get_contents($mdPath);
 
+// Global slot store: maps index → real HTML kept safe from htmlspecialchars()
+$GLOBALS['__mm_slots'] = [];
+
 function parseFaShortcodes(string $text): string
 {
     return preg_replace_callback(
         '/\[fa:(brands|solid|regular):([a-z0-9\-]+)\]/i',
-        fn($m) => '<i class="fa-' . $m[1] . ' fa-' . $m[2] . '"></i>',
+        function ($m) {
+            $html  = '<i class="fa-' . $m[1] . ' fa-' . $m[2] . '"></i>';
+            $index = count($GLOBALS['__mm_slots']);
+            $GLOBALS['__mm_slots'][$index] = $html;
+            return '§§' . $index . '§§';  // placeholder — no < or > to escape
+        },
         $text
     );
 }
