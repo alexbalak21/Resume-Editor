@@ -8,7 +8,7 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 **Annalyste Support Applicatif N2** et **Développeur Web**, spécialisé dans le diagnostic d’incidents, les corrections et ajustements de code. J’analyse, reproduis et résous les anomalies pour garantir la qualité et la continuité du service.
 
 
-# [fa:solid:address-card] CONTACT
+# CONTACT
 - Téléphone : (+33) 06.58.37.06.05 | tel:+33658370605
 - Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr
 - Localisation : Lyon 8, France
