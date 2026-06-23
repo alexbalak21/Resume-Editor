@@ -16,13 +16,13 @@ Développeur **Java / Spring Boot** et **JavaScript / React**, capable de concev
 
 # SKILLS
 - [fa:brands:java] Java / Spring Boot
-- JavaScript / TypeScript
+- [fa:brands:js] JavaScript / TypeScript
 - [fa:brands:react] React JS / Next.js
--  HTML / CSS / Tailwind CSS
-- Python / Flask / Django
+- [fa:brands:html5] HTML / CSS / Tailwind CSS
+- [fa:brands:python] Python / Flask / Django
 - [fa:solid:database] SQL / MySQL / MongoDB
-- Git / GitHub Actions
-- Docker / Kubernetes
+- [fa:brands:github] Git / GitHub Actions
+- [fa:brands:docker] Docker / Kubernetes
 
 # CERTIFICATIONS
 - IBM Java Developer

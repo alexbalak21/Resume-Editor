@@ -122,7 +122,17 @@ foreach (array_slice($headerLines, 2) as $line) {
         $label = trim($m[1]);
         $text  = trim($m[2]);
         $url   = isset($m[3]) ? trim($m[3]) : $text;
-        $icon  = stripos($label, 'linkedin') !== false ? 'in' : '&#127760;';
+        $linkIcons = [
+            'linkedin'  => '<i class="fa-brands fa-linkedin"></i>',
+            'github'    => '<i class="fa-brands fa-github"></i>',
+            'twitter'   => '<i class="fa-brands fa-x-twitter"></i>',
+            'site web'  => '<i class="fa-solid fa-globe"></i>',
+            'portfolio' => '<i class="fa-solid fa-globe"></i>',
+        ];
+        $icon = '<i class="fa-solid fa-globe"></i>'; // default
+        foreach ($linkIcons as $keyword => $faIcon) {
+            if (stripos($label, $keyword) !== false) { $icon = $faIcon; break; }
+        }
         $linksHtml .= '<a href="' . htmlspecialchars($url, ENT_QUOTES) . '" target="_blank">'
                     . '<span class="icon">' . $icon . '</span> ' . MiniMarkdown::inline($text)
                     . "</a>\n";
@@ -133,13 +143,13 @@ $placeholders['LINKS'] = $linksHtml;
 // --- PROFILE ---
 $placeholders['PROFILE'] = '<p>' . MiniMarkdown::inline($sections['PROFILE'] ?? '') . '</p>';
 
-// --- CONTACT (icon per known label) ---
+// --- CONTACT (FA icon per known label) ---
 $contactIcons = [
-    'téléphone'        => '&#128222;',
-    'email'            => '&#9993;',
-    'localisation'     => '&#128205;',
-    'date de naissance'=> '&#128197;',
-    'permis'           => '&#128663;',
+    'téléphone'         => '<i class="fa-solid fa-phone"></i>',
+    'email'             => '<i class="fa-solid fa-envelope"></i>',
+    'localisation'      => '<i class="fa-solid fa-location-dot"></i>',
+    'date de naissance' => '<i class="fa-solid fa-cake-candles"></i>',
+    'permis'            => '<i class="fa-solid fa-car"></i>',
 ];
 $contactHtml = '';
 foreach (preg_split('/\r?\n/', trim($sections['CONTACT'] ?? '')) as $line) {
@@ -147,7 +157,7 @@ foreach (preg_split('/\r?\n/', trim($sections['CONTACT'] ?? '')) as $line) {
     if ($line === '' || !preg_match('/^-\s+(.+?)\s*:\s*(.+)$/', $line, $m)) continue;
     $label = trim($m[1]);
     $value = trim($m[2]);
-    $icon  = $contactIcons[mb_strtolower($label)] ?? '&#8226;';
+    $icon  = $contactIcons[mb_strtolower($label)] ?? '<i class="fa-solid fa-circle-dot"></i>';
     $contactHtml .= '<div class="contact-item"><span class="icon">' . $icon . '</span> '
                   . MiniMarkdown::inline($value) . "</div>\n";
 }

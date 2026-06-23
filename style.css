@@ -335,6 +335,28 @@ main {
 #skills ul li i,
 #certifications ul li i {
     font-size: 19px;
-    margin-right: 4px;
+    margin-right: 2px;
     opacity: 0.9;   
+}
+
+
+#main-header #links a i {
+    font-size: 15px;
+    color: #4A6FA5;
+    font-weight: 600;
+}
+
+#main-header #links a .icon {
+    margin-right: 10px;
+}
+
+
+#contact .contact-grid i {
+    font-size: 16px;
+    color: #4A6FA5;
+    font-weight: 600;
+}
+
+#contact .contact-grid .icon {
+    margin-right: 7px;
 }
