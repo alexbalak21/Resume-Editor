@@ -24,7 +24,8 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 - [fa:brands:js] JavaScript / TypeScript
 - [fa:brands:python] Python / Flask / Django
 - [fa:solid:location-crosshairs] Outils de ticketing : Jira
-- [fa:brands:github] Git / GitHub Actions / Docker
+- [fa:brands:windows] Windows 10 / 11 / Office365
+
 
 # CERTIFICATIONS
 - IBM Java Developer
