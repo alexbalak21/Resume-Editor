@@ -23,6 +23,7 @@
     </div>
     <div id="topbar-right">
         <span id="saveStatus"></span>
+        <button id="previewBtn"><i class="fa-solid fa-print"></i> Aperçu A4 / Imprimer</button>
         <button id="saveBtn"><i class="fa-solid fa-floppy-disk"></i> Enregistrer</button>
     </div>
 </div>
@@ -34,6 +35,16 @@
             <details class="section" open>
                 <summary><i class="fa-solid fa-id-card"></i> En-tête</summary>
                 <div class="section-body">
+                    <label>Photo (JPG / PNG / WebP, 1 Mo max)</label>
+                    <div id="photoUploadRow">
+                        <img id="photoPreview" alt="Aperçu photo">
+                        <div id="photoUploadActions">
+                            <label for="photoFileInput" class="upload-btn"><i class="fa-solid fa-upload"></i> Choisir une photo</label>
+                            <input type="file" id="photoFileInput" accept="image/jpeg,image/png,image/webp" hidden>
+                            <button type="button" id="photoRemoveBtn" class="remove-photo-btn"><i class="fa-solid fa-trash"></i> Retirer</button>
+                            <span id="photoUploadStatus"></span>
+                        </div>
+                    </div>
                     <label>Nom complet</label>
                     <input type="text" data-path="header.fullName">
                     <label>Titre / Poste</label>

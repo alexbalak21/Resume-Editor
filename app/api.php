@@ -108,7 +108,7 @@ switch ($action) {
         }
         $blank = [
             'lang' => 'fr',
-            'header' => ['fullName' => '', 'jobTitle' => '', 'links' => []],
+            'header' => ['fullName' => '', 'jobTitle' => '', 'photo' => '', 'links' => []],
             'profile' => ['title' => 'Profil', 'text' => ''],
             'contact' => ['title' => 'Contact', 'items' => []],
             'skills' => ['title' => 'Compétences', 'items' => []],
@@ -120,6 +120,83 @@ switch ($action) {
         ];
         file_put_contents($path, json_encode($blank, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         echo json_encode(['ok' => true, 'profile' => $profile, 'data' => $blank]);
+        break;
+    }
+
+    case 'upload_photo': {
+        $profile = safeProfileName($_POST['profile'] ?? '');
+        if ($profile === null) {
+            http_response_code(400);
+            echo json_encode(['error' => 'Invalid profile name']);
+            break;
+        }
+        if (!isset($_FILES['photo']) || $_FILES['photo']['error'] !== UPLOAD_ERR_OK) {
+            http_response_code(400);
+            echo json_encode(['error' => 'Aucun fichier reçu']);
+            break;
+        }
+
+        $maxBytes = 1 * 1024 * 1024; // 1 MB max
+        $file = $_FILES['photo'];
+
+        if ($file['size'] > $maxBytes) {
+            http_response_code(413);
+            echo json_encode(['error' => 'Fichier trop volumineux (1 Mo max)']);
+            break;
+        }
+
+        $allowed = [
+            'image/jpeg' => 'jpg',
+            'image/png'  => 'png',
+            'image/webp' => 'webp',
+        ];
+        $finfo = new finfo(FILEINFO_MIME_TYPE);
+        $mime = $finfo->file($file['tmp_name']);
+        if (!isset($allowed[$mime])) {
+            http_response_code(415);
+            echo json_encode(['error' => 'Format non supporté (jpg, png, webp uniquement)']);
+            break;
+        }
+
+        $storageDir = __DIR__ . '/storage/photos';
+        if (!is_dir($storageDir)) {
+            mkdir($storageDir, 0775, true);
+        }
+
+        // Remove any previous photo(s) for this profile before saving the new one.
+        foreach (glob($storageDir . '/' . $profile . '.*') as $old) {
+            @unlink($old);
+        }
+
+        $ext = $allowed[$mime];
+        $filename = $profile . '.' . $ext;
+        $destPath = $storageDir . '/' . $filename;
+
+        if (!move_uploaded_file($file['tmp_name'], $destPath)) {
+            http_response_code(500);
+            echo json_encode(['error' => 'Échec de l\'enregistrement du fichier']);
+            break;
+        }
+
+        // Relative path usable directly as an <img src> from editor.php / preview.
+        $publicPath = 'storage/photos/' . $filename . '?v=' . time();
+        echo json_encode(['ok' => true, 'path' => $publicPath]);
+        break;
+    }
+
+    case 'delete_photo': {
+        $body = readJsonBody();
+        $profile = safeProfileName($body['profile'] ?? '');
+        if ($profile === null) {
+            http_response_code(400);
+            echo json_encode(['error' => 'Invalid profile name']);
+            break;
+        }
+        $storageDir = __DIR__ . '/storage/photos';
+        foreach (glob($storageDir . '/' . $profile . '.*') as $old) {
+            @unlink($old);
+        }
+        echo json_encode(['ok' => true]);
         break;
     }
 

@@ -121,3 +121,28 @@ input[type="text"]:focus, textarea:focus {
 }
 .timeline-card .bullets-list .repeat-row { margin-bottom: 4px; }
 .timeline-card-head { display: flex; justify-content: flex-end; }
+
+#photoUploadRow {
+    display: flex; align-items: center; gap: 14px;
+    padding: 10px; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff;
+}
+#photoPreview {
+    width: 64px; height: 64px; border-radius: 50%; object-fit: cover;
+    background: #eef1f5; border: 1px solid #d1d5db;
+    display: none;
+}
+#photoPreview.has-photo { display: block; }
+#photoUploadActions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.upload-btn {
+    background: #eef2ff; color: #3730a3; border: 1px solid #a5b4fc;
+    border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px;
+    display: inline-flex; align-items: center; gap: 6px;
+}
+.upload-btn:hover { background: #e0e7ff; }
+.remove-photo-btn {
+    background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5;
+    border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 13px;
+    display: inline-flex; align-items: center; gap: 6px;
+}
+.remove-photo-btn:hover { background: #fecaca; }
+#photoUploadStatus { font-size: 12px; color: #6b7280; }

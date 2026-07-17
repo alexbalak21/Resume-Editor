@@ -4,9 +4,18 @@
     "fullName": "Alexandre Balakirev",
     "jobTitle": "Support Applicatif N2 / Développeur Web",
     "links": [
-      { "label": "LinkedIn", "text": "@alexandre-balakirev", "url": "https://linkedin.com/in/alexandre-balakirev" },
-      { "label": "Site web", "text": "www.alex-balak.online", "url": "https://www.alex-balak.online" }
-    ]
+      {
+        "label": "LinkedIn",
+        "text": "@alexandre-balakirev",
+        "url": "https://linkedin.com/in/alexandre-balakirev"
+      },
+      {
+        "label": "Site web",
+        "text": "www.alex-balak.online",
+        "url": "https://www.alex-balak.online"
+      }
+    ],
+    "photo": ""
   },
   "profile": {
     "title": "Profil",
@@ -15,11 +24,31 @@
   "contact": {
     "title": "Contact",
     "items": [
-      { "label": "Téléphone", "display": "(+33) 06.58.37.06.05", "href": "tel:+33658370605" },
-      { "label": "Email", "display": "alex.balak@outlook.fr", "href": "mailto:alex.balak@outlook.fr" },
-      { "label": "Localisation", "display": "Lyon 8, France", "href": "" },
-      { "label": "Date de naissance", "display": "06/11/1985", "href": "" },
-      { "label": "Permis", "display": "Permis B", "href": "" }
+      {
+        "label": "Téléphone",
+        "display": "(+33) 06.58.37.06.05",
+        "href": "tel:+33658370605"
+      },
+      {
+        "label": "Email",
+        "display": "alex.balak@outlook.fr",
+        "href": "mailto:alex.balak@outlook.fr"
+      },
+      {
+        "label": "Localisation",
+        "display": "Lyon 8, France",
+        "href": ""
+      },
+      {
+        "label": "Date de naissance",
+        "display": "06/11/1985",
+        "href": ""
+      },
+      {
+        "label": "Permis",
+        "display": "Permis B",
+        "href": ""
+      }
     ]
   },
   "skills": {
@@ -48,9 +77,18 @@
   "languages": {
     "title": "Langues",
     "items": [
-      { "name": "Anglais", "level": "Courant - C1" },
-      { "name": "Russe", "level": "Natif - Courant" },
-      { "name": "Allemand", "level": "Scolaire - Notions" }
+      {
+        "name": "Anglais",
+        "level": "Courant - C1"
+      },
+      {
+        "name": "Russe",
+        "level": "Natif - Courant"
+      },
+      {
+        "name": "Allemand",
+        "level": "Scolaire - Notions"
+      }
     ]
   },
   "hobbies": {

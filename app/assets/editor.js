@@ -11,7 +11,13 @@
     const previewFrame = document.getElementById('previewFrame');
     const saveStatus = document.getElementById('saveStatus');
     const saveBtn = document.getElementById('saveBtn');
+    const previewBtn = document.getElementById('previewBtn');
     const newProfileBtn = document.getElementById('newProfileBtn');
+    const photoPreview = document.getElementById('photoPreview');
+    const photoFileInput = document.getElementById('photoFileInput');
+    const photoRemoveBtn = document.getElementById('photoRemoveBtn');
+    const photoUploadStatus = document.getElementById('photoUploadStatus');
+    const MAX_PHOTO_BYTES = 1 * 1024 * 1024; // 1 MB
 
     // ---------- path helpers ----------
     function getPath(obj, path) {
@@ -69,6 +75,73 @@
             </head><body>${result.html || ''}</body></html>`;
         previewFrame.srcdoc = doc;
     }
+
+    // ---------- photo ----------
+    function updatePhotoPreview() {
+        const photo = (state.header && state.header.photo) || '';
+        if (photo) {
+            photoPreview.src = photo;
+            photoPreview.classList.add('has-photo');
+        } else {
+            photoPreview.src = '';
+            photoPreview.classList.remove('has-photo');
+        }
+    }
+
+    async function persistProfileSilently() {
+        await apiPost('save', { profile: currentProfile, data: state });
+    }
+
+    photoFileInput.addEventListener('change', async () => {
+        const file = photoFileInput.files[0];
+        if (!file) return;
+
+        if (file.size > MAX_PHOTO_BYTES) {
+            photoUploadStatus.textContent = 'Trop lourd (1 Mo max)';
+            photoUploadStatus.style.color = '#dc2626';
+            photoFileInput.value = '';
+            return;
+        }
+        if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) {
+            photoUploadStatus.textContent = 'Format non supporté';
+            photoUploadStatus.style.color = '#dc2626';
+            photoFileInput.value = '';
+            return;
+        }
+
+        photoUploadStatus.textContent = 'Envoi...';
+        photoUploadStatus.style.color = '#6b7280';
+
+        const fd = new FormData();
+        fd.append('profile', currentProfile);
+        fd.append('photo', file);
+
+        const res = await fetch('api.php?action=upload_photo', { method: 'POST', body: fd });
+        const result = await res.json();
+
+        if (result.ok) {
+            setPath(state, 'header.photo', result.path);
+            updatePhotoPreview();
+            scheduleRender();
+            await persistProfileSilently();
+            photoUploadStatus.textContent = 'Photo enregistrée';
+            photoUploadStatus.style.color = '#16a34a';
+            setTimeout(() => (photoUploadStatus.textContent = ''), 2000);
+        } else {
+            photoUploadStatus.textContent = result.error || 'Erreur';
+            photoUploadStatus.style.color = '#dc2626';
+        }
+        photoFileInput.value = '';
+    });
+
+    photoRemoveBtn.addEventListener('click', async () => {
+        if (!(state.header && state.header.photo)) return;
+        await apiPost('delete_photo', { profile: currentProfile });
+        setPath(state, 'header.photo', '');
+        updatePhotoPreview();
+        scheduleRender();
+        await persistProfileSilently();
+    });
 
     // ---------- static field binding ----------
     function bindStaticFields() {
@@ -302,6 +375,7 @@
     function fillForm() {
         bindStaticFields();
         rebuildDynamicSections();
+        updatePhotoPreview();
     }
 
     async function loadProfile(name) {
@@ -348,6 +422,22 @@
         } else {
             saveStatus.textContent = 'Erreur';
             saveStatus.style.color = '#f87171';
+        }
+    });
+
+    previewBtn.addEventListener('click', async () => {
+        // preview.php reads from disk, so make sure the latest edits are saved first.
+        previewBtn.disabled = true;
+        const original = previewBtn.innerHTML;
+        previewBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Préparation...';
+        const result = await apiPost('save', { profile: currentProfile, data: state });
+        previewBtn.disabled = false;
+        previewBtn.innerHTML = original;
+        if (result.ok) {
+            markSaved();
+            window.open('preview.php?profile=' + encodeURIComponent(currentProfile), '_blank');
+        } else {
+            alert('Impossible d\'enregistrer avant l\'aperçu.');
         }
     });
 

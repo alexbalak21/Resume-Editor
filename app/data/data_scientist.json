@@ -4,9 +4,18 @@
     "fullName": "Alexandre Balakirev",
     "jobTitle": "Data Scientist / Développeur Python",
     "links": [
-      { "label": "LinkedIn", "text": "@alexandre-balakirev", "url": "https://linkedin.com/in/alexandre-balakirev" },
-      { "label": "GitHub", "text": "alexbalak21", "url": "https://github.com/alexbalak21" }
-    ]
+      {
+        "label": "LinkedIn",
+        "text": "@alexandre-balakirev",
+        "url": "https://linkedin.com/in/alexandre-balakirev"
+      },
+      {
+        "label": "GitHub",
+        "text": "alexbalak21",
+        "url": "https://github.com/alexbalak21"
+      }
+    ],
+    "photo": ""
   },
   "profile": {
     "title": "Profil",
@@ -15,9 +24,21 @@
   "contact": {
     "title": "Contact",
     "items": [
-      { "label": "Téléphone", "display": "(+33) 06.58.37.06.05", "href": "tel:+33658370605" },
-      { "label": "Email", "display": "alex.balak@outlook.fr", "href": "mailto:alex.balak@outlook.fr" },
-      { "label": "Localisation", "display": "Lyon 8, France", "href": "" }
+      {
+        "label": "Téléphone",
+        "display": "(+33) 06.58.37.06.05",
+        "href": "tel:+33658370605"
+      },
+      {
+        "label": "Email",
+        "display": "alex.balak@outlook.fr",
+        "href": "mailto:alex.balak@outlook.fr"
+      },
+      {
+        "label": "Localisation",
+        "display": "Lyon 8, France",
+        "href": ""
+      }
     ]
   },
   "skills": {
@@ -38,7 +59,10 @@
   "languages": {
     "title": "Langues",
     "items": [
-      { "name": "Anglais", "level": "Courant - C1" }
+      {
+        "name": "Anglais",
+        "level": "Courant - C1"
+      }
     ]
   },
   "hobbies": {

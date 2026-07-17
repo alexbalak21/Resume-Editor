@@ -4,8 +4,13 @@
     "fullName": "Alexandre Balakirev",
     "jobTitle": "Technicien Support Applicatif N2",
     "links": [
-      { "label": "LinkedIn", "text": "@alexandre-balakirev", "url": "https://linkedin.com/in/alexandre-balakirev" }
-    ]
+      {
+        "label": "LinkedIn",
+        "text": "@alexandre-balakirev",
+        "url": "https://linkedin.com/in/alexandre-balakirev"
+      }
+    ],
+    "photo": ""
   },
   "profile": {
     "title": "Profil",
@@ -14,9 +19,21 @@
   "contact": {
     "title": "Contact",
     "items": [
-      { "label": "Téléphone", "display": "(+33) 06.58.37.06.05", "href": "tel:+33658370605" },
-      { "label": "Email", "display": "alex.balak@outlook.fr", "href": "mailto:alex.balak@outlook.fr" },
-      { "label": "Localisation", "display": "Lyon 8, France", "href": "" }
+      {
+        "label": "Téléphone",
+        "display": "(+33) 06.58.37.06.05",
+        "href": "tel:+33658370605"
+      },
+      {
+        "label": "Email",
+        "display": "alex.balak@outlook.fr",
+        "href": "mailto:alex.balak@outlook.fr"
+      },
+      {
+        "label": "Localisation",
+        "display": "Lyon 8, France",
+        "href": ""
+      }
     ]
   },
   "skills": {
@@ -37,7 +54,10 @@
   "languages": {
     "title": "Langues",
     "items": [
-      { "name": "Anglais", "level": "Courant - C1" }
+      {
+        "name": "Anglais",
+        "level": "Courant - C1"
+      }
     ]
   },
   "hobbies": {

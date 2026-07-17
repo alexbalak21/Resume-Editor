@@ -97,6 +97,9 @@ class Renderer
         $header = $d['header'] ?? [];
         $p['FULL_NAME'] = self::inline($header['fullName'] ?? '');
         $p['JOB_TITLE'] = self::inline($header['jobTitle'] ?? '');
+        $photo = trim($header['photo'] ?? '');
+        $p['PHOTO_SRC'] = htmlspecialchars($photo, ENT_QUOTES);
+        $p['PHOTO_DISPLAY'] = $photo !== '' ? 'block' : 'none';
 
         $linksHtml = '';
         foreach ($header['links'] ?? [] as $link) {
@@ -168,6 +171,9 @@ class Renderer
         $tpl = <<<'HTML'
 <div id="page">
     <aside>
+        <div id="photo-container" style="display:{{PHOTO_DISPLAY}}">
+            <img src="{{PHOTO_SRC}}" alt="Profile photo" id="photo">
+        </div>
         <div class="aside-block" id="contact">
             <h3 class="aside-title">{{CONTACT_TITLE}}</h3>
             <div class="contact-grid">{{CONTACT}}</div>
