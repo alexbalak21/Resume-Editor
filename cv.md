@@ -1,12 +1,12 @@
 # HEADER
 Alexandre Balakirev  
-Support Applicatif N2 / Développeur Web  
+Développeur Backend Java / Spring Boot
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: Profil
-**Annalyste Support Applicatif N2** et **Développeur Web**, spécialisé dans le diagnostic d'incidents, les corrections et ajustements de code. J'analyse, reproduis et résous les anomalies pour garantir la qualité et la continuité du service.
+Développeur **Backend Java** avec une solide expérience en **développement d’API REST**, **optimisation SQL** et **maintenance applicative**. Habitué aux environnements techniques variés, je conçois, corrige et améliore des applications backend en garantissant performance, fiabilité et continuité de service.
 
 # CONTACT
 title: Contact
@@ -18,15 +18,16 @@ title: Contact
 
 # SKILLS
 title: Compétences
-- [fa:solid:headset] Support applicatif N1/N2
-- [fa:solid:magnifying-glass] Analyse d'incidents et logs
-- [fa:solid:bug] Développement correctif
-- [fa:solid:database] SQL / MySQL / PostgreSQL
-- [fa:brands:java] Java / JEE / Spring Boot
-- [fa:brands:js] JavaScript / TypeScript
-- [fa:brands:python] Python / Flask / Django
-- [fa:solid:location-crosshairs] Outils de ticketing : Jira
-- [fa:brands:windows] Windows 10 / 11 / Office365
+- [fa:brands:java] Java / Spring Boot (API REST / Backend)
+- [fa:solid:database] PostgreSQL / MySQL (Optimisation SQL)
+- [fa:solid:bug] Analyse d’incidents, diagnostic, reproduction et correction logicielle
+- [fa:solid:server] **Dev Backend** : Python, Node, Php, Go
+- [fa:solid:gears] **CI/CD** : GitHub Actions / GitLab CI
+- [fa:brands:docker] Docker / Déploiement sur serveur
+- [fa:brands:git-alt] **Git** : Bonnes pratiques, revue de code
+- [fa:solid:terminal] **Bash** : Scripting, Automatisation
+- [fa:solid:ticket] Outils de ticketing : Jira, Zendesk
+
 
 # CERTIFICATIONS
 title: Certifications
@@ -38,8 +39,7 @@ title: Certifications
 # LANGUAGES
 title: Langues
 - Anglais — Courant - C1
-- Russe — Natif - Courant
-- Allemand — Scolaire - Notions
+- Allemand — Notions
 
 # HOBBIES
 title: Intérêts
@@ -49,38 +49,36 @@ title: Intérêts
 # EXPERIENCE
 title: Expériences Professionnelles
 
-## Développeur Full-Stack - Novocib
+## Développeur Backend Java — Novocib
 **Jul 2025 – Feb 2026**
-- Amélioration du SCO et développement d'outils internes de back-office, messagerie... (Spring Boot, PostgreSQL)
-- Développement front-end réactif avec React JS et Tailwind CSS
+- Développement et amélioration d’outils backend (Spring Boot, PostgreSQL)
+- Conception et maintenance d’API REST
+- Optimisation de performances et fiabilité des services
+- Participation aux revues de code et bonnes pratiques Git
 
-## Développeur SAGE X3 - Kardol
+## Développeur SAGE X3 — Kardol
 **Oct 2024 – Avr 2025**
-- Maintenance applicative et résolution d'incidents sur l'ERP Sage X3.
-- Analyse fonctionnelle et technique, corrections de données.
-- Développement de spécifiques clients, redaction documentation.
+- Maintenance applicative et résolution d’incidents
+- Analyse fonctionnelle et technique, corrections SQL
+- Développement de modules backend et documentation technique
 
-## Développeur Full-Stack - Novocib
+## Développeur Full-Stack — Novocib
 **Fév 2024 – Mai 2024**
-- Développement backend (Laravel, MySQL) et création d'APIs internes.
-- Automatisation de tâches via Python.
-- Support technique interne : diagnostic, reproduction, corrections SQL.
-
-## Développeur Web - Fly'IT
-**Oct 2023 – Nov 2023**
-- Création du site web de l'entreprise (HTML, CSS, JS, PHP).
+- Développement backend (Laravel, MySQL) et APIs internes
+- Automatisation de tâches via Python
+- Support technique : diagnostic, reproduction, corrections SQL
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic et résolution de problèmes sur logiciels CAO (Bash, C)
-- Support utilisateurs et correction de bugs (Jira, Notions)
-- Développement d'outils internes en Python.
+- Diagnostic et résolution d’incidents sur logiciels critiques
+- Analyse de logs, reproduction d’anomalies, corrections
+- Développement d’outils internes (Python, Bash)
+- Travail en environnement exigeant (EDF)
 
-## Technicien Avionique - Armée de Terre, Phalsbourg
+## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
-- Diagnostic et maintenance de systèmes avioniques embarqués.
-- Gestion d'incidents complexes dans un environnement exigeant.
-- Travail en anglais sur documentation technique et systèmes.
+- Diagnostic de systèmes embarqués complexes
+- Travail en anglais sur documentation technique
 
 # EDUCATION
 title: Formations
@@ -90,5 +88,5 @@ CMFP (AFPA), Fontenay-le-Comte
 **Août 2020 – Juin 2021**
 
 ## Licence Aéronautique
-Armée de Terre, BA721  
+Armée de l'air, BA721  
 **Juin 2011 – Juin 2012**

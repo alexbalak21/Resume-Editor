@@ -40,7 +40,7 @@ ul {
    ASIDE / SIDEBAR
    ========================================================== */
 aside {
-    width: 40%;
+    width: 35%;
     background: linear-gradient(180deg, #4A6FA5 0%, #674EA7 100%);
     color: #fff;
     padding: 22px 22px;
@@ -105,16 +105,6 @@ aside {
     margin-bottom: 7px;
     position: relative;
     padding-left: 0;
-}
-
-#skills{
-    /* border: 1px solid blue; */
-    margin-right: -7px;
-    margin-left: -7px;
-}
-
-#skills .aside-title{
-    margin-left: 6px;
 }
 
 .no-bullets li {
@@ -254,7 +244,7 @@ main {
 }
 
 #experience .timeline::before {
-    bottom: 90px !important;
+    bottom: 110px !important;
 }
 
 /* DOTS */
@@ -344,6 +334,7 @@ main {
 #skills ul li i,
 #certifications ul li i {
     font-size: 18px;
+    margin-right: 2px;
     opacity: 0.9;   
 }
 
