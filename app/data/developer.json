@@ -1,0 +1,134 @@
+{
+  "lang": "fr",
+  "header": {
+    "fullName": "Alexandre Balakirev",
+    "jobTitle": "Support Applicatif N2 / Développeur Web",
+    "links": [
+      { "label": "LinkedIn", "text": "@alexandre-balakirev", "url": "https://linkedin.com/in/alexandre-balakirev" },
+      { "label": "Site web", "text": "www.alex-balak.online", "url": "https://www.alex-balak.online" }
+    ]
+  },
+  "profile": {
+    "title": "Profil",
+    "text": "**Annalyste Support Applicatif N2** et **Développeur Web**, spécialisé dans le diagnostic d'incidents, les corrections et ajustements de code. J'analyse, reproduis et résous les anomalies pour garantir la qualité et la continuité du service."
+  },
+  "contact": {
+    "title": "Contact",
+    "items": [
+      { "label": "Téléphone", "display": "(+33) 06.58.37.06.05", "href": "tel:+33658370605" },
+      { "label": "Email", "display": "alex.balak@outlook.fr", "href": "mailto:alex.balak@outlook.fr" },
+      { "label": "Localisation", "display": "Lyon 8, France", "href": "" },
+      { "label": "Date de naissance", "display": "06/11/1985", "href": "" },
+      { "label": "Permis", "display": "Permis B", "href": "" }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "items": [
+      "[fa:solid:headset] Support applicatif N1/N2",
+      "[fa:solid:magnifying-glass] Analyse d'incidents et logs",
+      "[fa:solid:bug] Développement correctif",
+      "[fa:solid:database] SQL / MySQL / PostgreSQL",
+      "[fa:brands:java] Java / JEE / Spring Boot",
+      "[fa:brands:js] JavaScript / TypeScript",
+      "[fa:brands:python] Python / Flask / Django",
+      "[fa:solid:location-crosshairs] Outils de ticketing : Jira",
+      "[fa:brands:windows] Windows 10 / 11 / Office365"
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      "IBM Java Developer",
+      "Microsoft Python Developer",
+      "Meta React Developer",
+      "IBM Node / Express Developer"
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      { "name": "Anglais", "level": "Courant - C1" },
+      { "name": "Russe", "level": "Natif - Courant" },
+      { "name": "Allemand", "level": "Scolaire - Notions" }
+    ]
+  },
+  "hobbies": {
+    "title": "Intérêts",
+    "items": [
+      "Fitness / Musculation",
+      "Escalade / Randonnée"
+    ]
+  },
+  "experience": {
+    "title": "Expériences Professionnelles",
+    "items": [
+      {
+        "title": "Développeur Full-Stack - Novocib",
+        "meta": "Jul 2025 – Feb 2026",
+        "bullets": [
+          "Amélioration du SCO et développement d'outils internes de back-office, messagerie... (Spring Boot, PostgreSQL)",
+          "Développement front-end réactif avec React JS et Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Développeur SAGE X3 - Kardol",
+        "meta": "Oct 2024 – Avr 2025",
+        "bullets": [
+          "Maintenance applicative et résolution d'incidents sur l'ERP Sage X3.",
+          "Analyse fonctionnelle et technique, corrections de données.",
+          "Développement de spécifiques clients, redaction documentation."
+        ]
+      },
+      {
+        "title": "Développeur Full-Stack - Novocib",
+        "meta": "Fév 2024 – Mai 2024",
+        "bullets": [
+          "Développement backend (Laravel, MySQL) et création d'APIs internes.",
+          "Automatisation de tâches via Python.",
+          "Support technique interne : diagnostic, reproduction, corrections SQL."
+        ]
+      },
+      {
+        "title": "Développeur Web - Fly'IT",
+        "meta": "Oct 2023 – Nov 2023",
+        "bullets": [
+          "Création du site web de l'entreprise (HTML, CSS, JS, PHP)."
+        ]
+      },
+      {
+        "title": "Analyste Fonctionnel N2 — CGI",
+        "meta": "Juil 2022 – Oct 2023",
+        "bullets": [
+          "Diagnostic et résolution de problèmes sur logiciels CAO (Bash, C)",
+          "Support utilisateurs et correction de bugs (Jira, Notions)",
+          "Développement d'outils internes en Python."
+        ]
+      },
+      {
+        "title": "Technicien Avionique - Armée de Terre, Phalsbourg",
+        "meta": "Mar 2010 – Juin 2021",
+        "bullets": [
+          "Diagnostic et maintenance de systèmes avioniques embarqués.",
+          "Gestion d'incidents complexes dans un environnement exigeant.",
+          "Travail en anglais sur documentation technique et systèmes."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formations",
+    "items": [
+      {
+        "title": "Bac+2 : Développeur Web Full-Stack",
+        "meta": "CMFP (AFPA), Fontenay-le-Comte — Août 2020 – Juin 2021",
+        "bullets": []
+      },
+      {
+        "title": "Licence Aéronautique",
+        "meta": "Armée de Terre, BA721 — Juin 2011 – Juin 2012",
+        "bullets": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "lang": "fr",
+  "header": {
+    "fullName": "Alexandre Balakirev",
+    "jobTitle": "Technicien Support Applicatif N2",
+    "links": [
+      { "label": "LinkedIn", "text": "@alexandre-balakirev", "url": "https://linkedin.com/in/alexandre-balakirev" }
+    ]
+  },
+  "profile": {
+    "title": "Profil",
+    "text": "**Technicien support et maintenance**, rigoureux et méthodique, avec une solide expérience du diagnostic d'incidents en environnement exigeant (avionique et applicatif)."
+  },
+  "contact": {
+    "title": "Contact",
+    "items": [
+      { "label": "Téléphone", "display": "(+33) 06.58.37.06.05", "href": "tel:+33658370605" },
+      { "label": "Email", "display": "alex.balak@outlook.fr", "href": "mailto:alex.balak@outlook.fr" },
+      { "label": "Localisation", "display": "Lyon 8, France", "href": "" }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "items": [
+      "[fa:solid:headset] Support N1/N2",
+      "[fa:solid:screwdriver-wrench] Maintenance système",
+      "[fa:solid:bug] Diagnostic d'incidents",
+      "[fa:solid:database] SQL de base"
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      "IBM Java Developer"
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      { "name": "Anglais", "level": "Courant - C1" }
+    ]
+  },
+  "hobbies": {
+    "title": "Intérêts",
+    "items": [
+      "Fitness / Musculation"
+    ]
+  },
+  "experience": {
+    "title": "Expériences Professionnelles",
+    "items": [
+      {
+        "title": "Technicien Avionique - Armée de Terre, Phalsbourg",
+        "meta": "Mar 2010 – Juin 2021",
+        "bullets": [
+          "Diagnostic et maintenance de systèmes avioniques embarqués.",
+          "Gestion d'incidents complexes dans un environnement exigeant."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formations",
+    "items": [
+      {
+        "title": "Licence Aéronautique",
+        "meta": "Armée de Terre, BA721 — Juin 2011 – Juin 2012",
+        "bullets": []
+      }
+    ]
+  }
+}

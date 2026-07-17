@@ -1,0 +1,73 @@
+{
+  "lang": "fr",
+  "header": {
+    "fullName": "Alexandre Balakirev",
+    "jobTitle": "Data Scientist / Développeur Python",
+    "links": [
+      { "label": "LinkedIn", "text": "@alexandre-balakirev", "url": "https://linkedin.com/in/alexandre-balakirev" },
+      { "label": "GitHub", "text": "alexbalak21", "url": "https://github.com/alexbalak21" }
+    ]
+  },
+  "profile": {
+    "title": "Profil",
+    "text": "**Développeur Python** orienté données, à l'aise avec l'automatisation, le traitement de données et la mise en place de pipelines simples."
+  },
+  "contact": {
+    "title": "Contact",
+    "items": [
+      { "label": "Téléphone", "display": "(+33) 06.58.37.06.05", "href": "tel:+33658370605" },
+      { "label": "Email", "display": "alex.balak@outlook.fr", "href": "mailto:alex.balak@outlook.fr" },
+      { "label": "Localisation", "display": "Lyon 8, France", "href": "" }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "items": [
+      "[fa:brands:python] Python / Pandas / NumPy",
+      "[fa:solid:chart-line] Analyse de données",
+      "[fa:solid:database] SQL / PostgreSQL",
+      "[fa:solid:robot] Scripts d'automatisation"
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      "Microsoft Python Developer"
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      { "name": "Anglais", "level": "Courant - C1" }
+    ]
+  },
+  "hobbies": {
+    "title": "Intérêts",
+    "items": [
+      "Escalade / Randonnée"
+    ]
+  },
+  "experience": {
+    "title": "Expériences Professionnelles",
+    "items": [
+      {
+        "title": "Développeur Full-Stack - Novocib",
+        "meta": "Fév 2024 – Mai 2024",
+        "bullets": [
+          "Automatisation de tâches via Python.",
+          "Développement backend (Laravel, MySQL) et création d'APIs internes."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formations",
+    "items": [
+      {
+        "title": "Bac+2 : Développeur Web Full-Stack",
+        "meta": "CMFP (AFPA), Fontenay-le-Comte — Août 2020 – Juin 2021",
+        "bullets": []
+      }
+    ]
+  }
+}
