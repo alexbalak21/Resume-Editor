@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Renderer
  * --------
@@ -40,11 +41,16 @@ class Renderer
     private static function contactIcon(string $label): string
     {
         $map = [
-            'téléphone' => 'fa-phone', 'phone' => 'fa-phone',
+            'téléphone' => 'fa-phone',
+            'phone' => 'fa-phone',
             'email' => 'fa-envelope',
-            'localisation' => 'fa-location-dot', 'location' => 'fa-location-dot',
-            'date de naissance' => 'fa-cake-candles', 'birthday' => 'fa-cake-candles',
-            'permis' => 'fa-car', 'license' => 'fa-car', 'driving' => 'fa-car',
+            'localisation' => 'fa-location-dot',
+            'location' => 'fa-location-dot',
+            'date de naissance' => 'fa-cake-candles',
+            'birthday' => 'fa-cake-candles',
+            'permis' => 'fa-car',
+            'license' => 'fa-car',
+            'driving' => 'fa-car',
         ];
         $key = mb_strtolower(trim($label));
         $icon = $map[$key] ?? 'fa-circle-dot';
@@ -99,14 +105,14 @@ class Renderer
         $p['JOB_TITLE'] = self::inline($header['jobTitle'] ?? '');
         $photo = trim($header['photo'] ?? '');
         $p['PHOTO_SRC'] = htmlspecialchars($photo, ENT_QUOTES);
-        $p['PHOTO_DISPLAY'] = $photo !== '' ? 'block' : 'none';
+        $p['PHOTO_DISPLAY'] = $photo !== '' ? 'flex' : 'none';
 
         $linksHtml = '';
         foreach ($header['links'] ?? [] as $link) {
             $url = $link['url'] ?? ($link['text'] ?? '');
             $linksHtml .= '<a href="' . htmlspecialchars($url, ENT_QUOTES) . '" target="_blank">'
-                        . '<span class="icon">' . self::linkIcon($link['label'] ?? '') . '</span> '
-                        . self::inline($link['text'] ?? '') . "</a>\n";
+                . '<span class="icon">' . self::linkIcon($link['label'] ?? '') . '</span> '
+                . self::inline($link['text'] ?? '') . "</a>\n";
         }
         $p['LINKS'] = $linksHtml;
 
@@ -122,7 +128,7 @@ class Renderer
                 ? '<a href="' . htmlspecialchars($href, ENT_QUOTES) . '">' . $text . '</a>'
                 : $text;
             $contactHtml .= '<div class="contact-item"><span class="icon">'
-                          . self::contactIcon($item['label'] ?? '') . '</span> ' . $content . "</div>\n";
+                . self::contactIcon($item['label'] ?? '') . '</span> ' . $content . "</div>\n";
         }
         $p['CONTACT'] = $contactHtml;
 
@@ -151,7 +157,7 @@ class Renderer
         $langHtml = '';
         foreach ($d['languages']['items'] ?? [] as $item) {
             $langHtml .= '<div class="lang-item"><span class="lang-name">' . self::inline($item['name'] ?? '')
-                       . '</span><span class="lang-level">' . self::inline($item['level'] ?? '') . "</span></div>\n";
+                . '</span><span class="lang-level">' . self::inline($item['level'] ?? '') . "</span></div>\n";
         }
         $p['LANGUAGES'] = $langHtml;
 
@@ -174,6 +180,7 @@ class Renderer
         <div id="photo-container" style="display:{{PHOTO_DISPLAY}}">
             <img src="{{PHOTO_SRC}}" alt="Profile photo" id="photo">
         </div>
+
         <div class="aside-block" id="contact">
             <h3 class="aside-title">{{CONTACT_TITLE}}</h3>
             <div class="contact-grid">{{CONTACT}}</div>

@@ -1,0 +1,41 @@
+{
+    "lang": "fr",
+    "header": {
+        "fullName": "",
+        "jobTitle": "",
+        "photo": "",
+        "links": []
+    },
+    "profile": {
+        "title": "Profil",
+        "text": ""
+    },
+    "contact": {
+        "title": "Contact",
+        "items": []
+    },
+    "skills": {
+        "title": "Compétences",
+        "items": []
+    },
+    "certifications": {
+        "title": "Certifications",
+        "items": []
+    },
+    "languages": {
+        "title": "Langues",
+        "items": []
+    },
+    "hobbies": {
+        "title": "Intérêts",
+        "items": []
+    },
+    "experience": {
+        "title": "Expériences Professionnelles",
+        "items": []
+    },
+    "education": {
+        "title": "Formations",
+        "items": []
+    }
+}
