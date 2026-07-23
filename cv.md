@@ -6,7 +6,7 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur Full-Stack **Java**, **Spring Boot** et **React**, capable de concevoir, développer et livrer des applications complètes.
+Développeur Full-Stack **Java**, **Spring Boot** et **React Js**, capable de concevoir, développer et livrer des applications complètes.
 **Rigoureux** et **autonome**, je m’adapte vite et apprécie les environnements techniques exigeants.
 
 
