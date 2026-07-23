@@ -77,10 +77,11 @@ aside {
 .aside-title::after {
     content: "";
     display: block;
-    width: 40px;
+    width: 45px;
     height: 4px;
     background: #fff;
     margin-top: 5px;
+    margin-left: 27px;
 }
 
 .aside-block {
@@ -206,10 +207,11 @@ main {
 .section-title::after {
     content: "";
     display: block;
-    width: 40px;
+    width: 45px;
     height: 4px;
     background: #4A6FA5;
     margin-top: 4px;
+    margin-left: 26px;
 }
 
 
