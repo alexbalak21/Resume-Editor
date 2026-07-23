@@ -16,6 +16,7 @@ class MiniMarkdown
     /** Convert **bold** markers to <strong> and escape HTML.
      *  Tokens of the form §§N§§ are placeholders for pre-rendered HTML
      *  (e.g. Font Awesome <i> tags) that must not be escaped.
+     *  <br> is now supported as a safe inline HTML tag.
      */
     public static function inline(string $text): string
     {
@@ -26,16 +27,23 @@ class MiniMarkdown
             return $m[0];
         }, $text);
 
-        // 2. Escape everything else
+        // 2. TEMPORARILY protect <br> tags
+        $text = str_replace('<br>', '§§BR§§', $text);
+
+        // 3. Escape everything else
         $text = htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
 
-        // 3. Restore placeholders to their real HTML
+        // 4. Restore <br> tags
+        $text = str_replace('§§BR§§', '<br>', $text);
+
+        // 5. Restore placeholders to their real HTML
         $text = preg_replace_callback('/§§(\d+)§§/', function ($m) {
             return $GLOBALS['__mm_slots'][$m[1]] ?? $m[0];
         }, $text);
 
-        // 4. Bold
+        // 6. Bold
         $text = preg_replace('/\*\*(.+?)\*\*/s', '<strong>$1</strong>', $text);
+
         return $text;
     }
 
