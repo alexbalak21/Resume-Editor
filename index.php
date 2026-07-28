@@ -219,8 +219,10 @@ function renderTimeline(array $items): string
     $html = '';
     foreach ($items as $item) {
         $html .= "<div class=\"timeline-item\">\n";
-        $html .= '  <h4 class="job-title">' . MiniMarkdown::inline($item['title']) . "</h4>\n";
-        $html .= '  <p class="job-meta">' . MiniMarkdown::inline($item['meta']) . "</p>\n";
+        $html .= "  <div class=\"job-header\">\n";
+        $html .= '    <h4 class="job-title">' . MiniMarkdown::inline($item['title']) . "</h4>\n";
+        $html .= '    <span class="job-meta">' . MiniMarkdown::inline($item['meta']) . "</span>\n";
+        $html .= "  </div>\n";
         if (!empty($item['bullets'])) {
             $html .= "  <ul>\n";
             foreach ($item['bullets'] as $bullet) {

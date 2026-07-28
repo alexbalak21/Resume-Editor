@@ -5,8 +5,7 @@ LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev
 Website: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
-Développeur **Full‑Stack JavaScript / Java** avec une expérience solide en **React**, **Node.js / Next.js**, **Spring Boot** et **API REST**. Habitué aux environnements techniques variés, j’interviens sur des projets internes à forte valeur ajoutée métier, depuis la conception jusqu’à l’industrialisation.  
-Polyvalent frontend/backend, autonome, rigoureux, et à l’aise dans les équipes agiles.
+Développeur **Full-Stack Java / JavaScript** (Spring Boot, React, Node.js) avec une solide expérience en conception d'API REST et développement d'applications métier. <br> Autonome, rigoureux, à l'aise en environnement agile.
 
 # CONTACT
 - Téléphone : (+33) 06.58.37.06.05
@@ -55,7 +54,7 @@ Polyvalent frontend/backend, autonome, rigoureux, et à l’aise dans les équip
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
 - Développement ERP Sage X3
-- Développement d’une application interne (Java/Spring Boot & React JS)
+- Développement d’une application interne (Spring Boot, React Js)
 
 ## Développeur Full‑Stack — Novocib
 **Fév 2024 – Mai 2024**
