@@ -56,17 +56,17 @@ title: Expériences Professionnelles
 - Optimisation de performances et fiabilité des services
 - Participation aux revues de code et bonnes pratiques Git
 
-## Développeur SAGE X3 — Kardol
+## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
-- Maintenance applicative et résolution d’incidents
-- Analyse fonctionnelle et technique, corrections SQL
-- Développement de modules backend et documentation technique
+- Developpement ERP Sage X3  (L4G)
+- Développement d'application de ticketing (Java/Spring Boot & React JS)
 
 ## Développeur Full-Stack — Novocib
 **Fév 2024 – Mai 2024**
-- Développement backend (Laravel, MySQL) et APIs internes
-- Automatisation de tâches via Python
-- Support technique : diagnostic, reproduction, corrections SQL
+- Développement backend (Spring Boot, MySQL) et APIs internes
+- Devloppement Frontend (React JS, Next JS)
+- Automatisation de tâches (Python, Powershell)
+ 
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
@@ -74,6 +74,7 @@ title: Expériences Professionnelles
 - Analyse de logs, reproduction d’anomalies, corrections
 - Développement d’outils internes (Python, Bash)
 - Travail en environnement exigeant (EDF)
+- Developpement 
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
