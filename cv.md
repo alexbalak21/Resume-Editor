@@ -1,8 +1,8 @@
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack Java / React / Node.js  
-LinkedIn: https://linkedin.com/in/alexandre-balakirev  
-Site web: https://www.alex-balak.online
+Développeur Full‑Stack Java / React / Node  
+LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
+Website: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 Développeur **Full‑Stack JavaScript / Java** avec une expérience solide en **React**, **Node.js / Next.js**, **Spring Boot** et **API REST**. Habitué aux environnements techniques variés, j’interviens sur des projets internes à forte valeur ajoutée métier, depuis la conception jusqu’à l’industrialisation.  
@@ -15,27 +15,33 @@ Polyvalent frontend/backend, autonome, rigoureux, et à l’aise dans les équip
 - Permis B
 
 # SKILLS
-- **Java / Spring Boot** — API REST, services backend
-- **JavaScript / TypeScript**
-- **React / Next.js** — Interfaces, composants, intégration API
-- **Node.js** — Services backend, automatisation
-- **SQL** — PostgreSQL / MySQL (optimisation, requêtes complexes)
-- Diagnostic, reproduction et correction d’incidents
-- CI/CD : GitHub Actions / GitLab CI
-- Docker / Déploiement
-- Git (revue de code, bonnes pratiques)
-- Bash / Automatisation
-- Ticketing : Jira, Zendesk
+- [fa:brands:java] **Java / Spring Boot** : API REST, Backend
+- [fa:brands:js] **JavaScript / TypeScript** : Frontend
+- [fa:brands:react] **React / Next.js** : Frontend, Dev UX/UI
+- [fa:brands:node-js] **Node.js** : Services backend, APIs
+- [fa:solid:database] **SQL** : PostgreSQL / MySQL / MangoDB
+- [fa:solid:wrench] Diagnostic, reproduction et correction
+- [fa:brands:git-alt] CI/CD : GitHub Actions / GitLab CI
+- [fa:brands:docker]  Docker / Déploiement / Kuberneties
+- [fa:brands:python] Python / Flask / Django / Applications
+- [fa:solid:location-crosshairs] Ticketing : Jira, Zendesk
 
 # CERTIFICATIONS
-- IBM Java Developer
-- Microsoft Python Developer
-- Meta React Developer
-- IBM Node / Express Developer
+- [fa:solid:i] IBM Java Developer
+- [fa:brands:microsoft] Microsoft Python Developer
+- [fa:brands:react] Meta React Developer
+- [fa:solid:server] IBM Node / Express Developer
 
 # LANGUAGES
 - Anglais — Courant (C1)
 - Allemand — Notions
+- Russe — Natif
+
+# HOBBIES
+- [fa:solid:dumbbell] Fitness / Musculation
+- [fa:solid:person-biking] Ciclisme / Running
+
+
 
 # EXPERIENCE
 
