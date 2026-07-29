@@ -27,6 +27,7 @@ title: Compétences
 - [fa:brands:python] Python / Flask / Django
 - [fa:solid:location-crosshairs] Outils de ticketing : Jira
 - [fa:brands:windows] Windows 10 / 11 / Office365
+- [fa:solid:headset] Ticketing : Support Client / Assistance
 
 # CERTIFICATIONS
 title: Certifications

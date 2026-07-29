@@ -1,3 +1,14 @@
+/* VARIABLES */
+:root {
+    --accent: #4A6FA5;
+    --margin-icon : 27px;
+    --vertical-line-bottom-experience: 50px;
+    --vertical-line-bottom-education: 50px;
+}
+
+
+
+
 /* ==========================================================
    RESET & BASE
    ========================================================== */
@@ -73,7 +84,7 @@ aside {
     position: relative;
 }
 
-/* SMALL HORISONTAL LINE UNDER ASIDE TITLES */
+/* SMALL HORIZONTAL LINE UNDER ASIDE TITLES */
 .aside-title::after {
     content: "";
     display: block;
@@ -81,7 +92,10 @@ aside {
     height: 4px;
     background: #fff;
     margin-top: 5px;
-    /* margin-left: 27px; */
+}
+
+.aside-title:has(i)::after {
+    margin-left: var(--margin-icon);
 }
 
 .aside-block {
@@ -156,7 +170,7 @@ main {
 }
 
 #name {
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 700;
     color: #4A6FA5;
 }
@@ -166,6 +180,7 @@ main {
     font-weight: 400;
     color: #444;
     margin-top: 4px;
+    margin-right: -40px
 }
 
 #links {
@@ -202,8 +217,8 @@ main {
     position: relative;
     margin-left: -6px;
 }
-
-/* SMALL HORISONTAL LINE UNDER SECTION TITLES  */
+    
+/* SMALL HORIZONTAL LINE UNDER SECTION TITLES  */
 .section-title::after {
     content: "";
     display: block;
@@ -211,8 +226,12 @@ main {
     height: 4px;
     background: #4A6FA5;
     margin-top: 4px;
-    /* margin-left: 26px; */
 }
+
+.section-title:has(i)::after {
+    margin-left: var(--margin-icon);
+}
+
 
 
 .contact-grid {
@@ -225,6 +244,11 @@ main {
 #experience,
 #education {
     margin-bottom: 14px;
+}
+
+#education .job-header{
+    display: flex;
+    flex-direction: column;
 }
 
 /* ==========================================================
@@ -244,19 +268,22 @@ main {
     padding-left: 12px;
 }
 
-/* Vertical line */
+/* Vertical Line - EDUCATION */
 .timeline::before {
     content: "";
     position: absolute;
     left: -4px;
     top: 7px;
-    bottom: 50px;
+    bottom: 52px;
     width: 1px !important;
     background: #4A6FA5;
 }
 
+
+
+/* VERTICAL LINE EXPERIENCE */
 #experience .timeline::before {
-    bottom: 90px !important;
+    bottom: 73px !important;
 }
 
 /* DOTS */
@@ -273,8 +300,9 @@ main {
 
 .job-header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 4px;
+    justify-content: space-between;
 }
 
 .job-title {
