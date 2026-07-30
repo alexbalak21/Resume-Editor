@@ -1,90 +1,133 @@
 # HEADER
 Alexandre Balakirev  
-Full-Stack Developer — Java / React  
+Développeur Full-Stack Python / React  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Website: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
-title: [fa:solid:user] Profile
-Full-Stack Developer specialized in **Java**, **Spring Boot**, & **React Js**, able to design, build, and deliver complete applications.<br>  
-Highly **rigorous** and **autonomous**, I adapt quickly and thrive in demanding technical environments.
+title: [fa:solid:user] Profil
+Développeur **Python** / **React Js**, capable de concevoir et livrer des applications web complètes.  
+Autonome et rigoureux, je m’adapte vite et apprécie les environnements **multi‑technologies**.
+
 
 # CONTACT
 title: [fa:solid:address-card] Contact
-- Phone : (+33) 06.58.37.06.05 | tel:+33658370605
-- Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr
-- Location : Lyon 8, France
-- Birthday : 06/11/1985
-- Permis : Driving license
+- Téléphone : (+33) 06.58.37.06.05
+- Email : alex.balak@outlook.fr
+- Localisation : Lyon 8, France
+- Permis B
 
 # SKILLS
-title: [fa:solid:screwdriver-wrench] Skills
-- [fa:brands:java] Java / Spring Boot
-- [fa:brands:js] JavaScript / TypeScript
-- [fa:brands:react] React JS / Next.js
-- [fa:solid:code] HTML / CSS / Tailwind CSS
-- [fa:brands:python] Python / Flask / Django
-- [fa:solid:database] SQL / MySQL / MongoDB
-- [fa:brands:git-alt] Git / GitHub Actions
+title: [fa:solid:screwdriver-wrench] Compétences
+
+- [fa:brands:python] **Python** : Flask, Django, FastAPI, automatisation, traitements de données  
+- [fa:brands:react] **React / Next.js** : JavaScript / TypeScript  
+- [fa:brands:html5] **Frontend** : HTML5, CSS3, Tailwind CSS  
+- [fa:solid:database] **Bases de données** : PostgreSQL, MySQL  
+- [fa:solid:server] **API REST** : Conception, développement, intégration (Flask, Django, FastAPI)  
+- [fa:solid:layer-group] **ORM** : SQLAlchemy, Django ORM, JPA  
+- [fa:brands:docker] **Docker** : Conteneurisation et déploiement  
+- [fa:brands:git-alt] **Git / GitHub** : Versionning, CI/CD  
+- [fa:brands:linux] **Linux** : Bash, Shell, scripting  
+- [fa:solid:code] **Architecture** : MVC, Clean Code, Design Patterns  
+- [fa:solid:robot] **Automatisation** : Scripts Python, ETL, génération de rapports  
+- [fa:solid:wrench] **Maintenance** : Debug, optimisation, correction d'anomalies
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-- IBM Java Developer
-- Microsoft Python Developer
-- Meta React Developer
+
+- [fa:brands:microsoft] Microsoft Python Developer  
+- [fa:solid:i] IBM Java Developer  
+- [fa:brands:react] Meta React Developer  
+- [fa:solid:server] IBM Node.js / Express Developer
 
 # LANGUAGES
-title: [fa:solid:language] Languages
-- English — Fluent (C1)
-- Russian — Native
-- German — Basic (School Level)
+title: [fa:solid:language] Langues
+
+- Anglais — Courant (C1)  
+- Allemand — Notions
 
 # HOBBIES
-title: [fa:solid:person-running] Interests
-- Fitness / Weight Training
-- Climbing / Hiking
+title: [fa:solid:person-running] Centres d'intérêt
+
+- [fa:solid:laptop-code] Développement de projets personnels  
+- [fa:solid:robot] Intelligence Artificielle  
+- [fa:solid:database] Architecture logicielle  
+- [fa:solid:dumbbell] Fitness / Musculation
+
+
 
 # EXPERIENCE
-title: [fa:solid:briefcase] Work Experience
+title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Full-Stack Developer — Novocib
-**Jul 2025 – Feb 2026**
-- Improved SCO and developed internal back-office tools (Spring Boot, PostgreSQL)
-- Built responsive front-end interfaces using React JS and Tailwind CSS
+## Développeur Backend Python — Novocib
+**Jul 2025 – Fév 2026**
+- APIs REST Flask (Blueprints, middlewares)
+- Optimisation backend & SQL (PostgreSQL)
+- Développement de services Python
+- Automatisation (Python, Bash)
+- Amélioration continue & revues de code
 
-## SAGE X3 Developer — Kardol
-**Oct 2024 – Apr 2025**
-- Development on the Sage X3 ERP (L4G, SQL, REST API)
-- Worked on REST APIs and business logic
+## Développeur SAGE X3 / Java — Kardol
+**Oct 2024 – Avr 2025**
+- Développement d'applications métier (L4G)
+- Backend Java / Spring Boot
+- Frontend React JS
+- Maintenance & évolution ERP
+- Intégration SQL / JPA
 
-## Full-Stack Developer — Novocib
-**Feb 2024 – May 2024**
-- Full design and development of the company website (PHP, Laravel, MySQL, Bootstrap)
-- Built a custom back-office (Express, React)
-- Developed dynamic interfaces with React JS
+## Développeur Python / React — Novocib
+**Fév 2024 – Mai 2024**
+- Développement site web (Django + React)
+- APIs REST Flask / Django
+- Scripts Python (automatisation, parsing)
+- Interfaces React (components, routing)
+- Optimisation SQL & performances Python
 
-## Web Developer — Fly'IT
-**Oct 2023 – Nov 2023**
-- Created the company website (HTML, CSS, JS, PHP)
+## Analyste Fonctionnel N2 — CGI
+**Juil 2022 – Oct 2023**
+- Diagnostic d’incidents complexes
+- Automatisation Python (extraction, reporting)
+- Analyse SQL & support applicatif
+- Environnement critique & Agile
 
-## Functional Analyst N2 — CGI
-**Jul 2022 – Oct 2023**
-- Diagnosed and resolved issues on CAD software used by EDF (Bash, C)
-- User support and bug fixing (Jira)
-- Developed internal tools in Python
+## Technicien Avionique — Armée de Terre
+**Mar 2010 – Juin 2021**
+- Diagnostic systèmes électroniques
+- Analyse & résolution de pannes
+- Développement de petits outils internes en Python pour automatiser des vérifications techniques
+- Documentation technique en anglais
 
-## Avionics Technician — French Army
-**Mar 2010 – Jun 2021**
-- Maintenance and diagnostics of critical avionics systems
-- Managed onboard IT systems in English
+
+
+
+# PROJECTS
+title: [fa:solid:folder-open] Projets
+
+## Générateur de Documents
+- Développement d'une application Full-Stack de génération de documents  
+- Python (Flask), PHP, Bootstrap, MySQL  
+- Génération de factures, devis et documents PDF (Python + libs PDF)  
+- Architecture modulaire et extensible
+
+## Portfolio Développeur
+- Développement d'un portfolio moderne en React  
+- Responsive Design  
+- Dark / Light Mode  
+- Optimisation des performances
+
+## Outils d'Automatisation
+- Développement de scripts Python (ETL, parsing, génération de rapports)  
+- Automatisation de traitements métier  
+- Manipulation de données
 
 # EDUCATION
-title: [fa:solid:graduation-cap] Education
+title: [fa:solid:graduation-cap] Formations
 
-## Associate Degree — Full-Stack Web Development
+## Bac+2 : Développeur Web Full-Stack  
 CMFP (AFPA), Fontenay-le-Comte  
-**Aug 2020 – Jun 2026**
+**Août 2020 – Juin 2021**
 
-## Aeronautics License
-French Air Force, BA721  
-**Jun 2011 – Jun 2012**
+## Licence Aéronautique  
+Armée de l'Air, BA721  
+**Juin 2011 – Juin 2012**

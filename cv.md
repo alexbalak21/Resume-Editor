@@ -1,37 +1,33 @@
 # HEADER
 Alexandre Balakirev  
-Développeur Full-Stack Python / React  
+Développeur Back-End Node.js / TypeScript  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
-Website: www.alex-balak.online | https://www.alex-balak.online
+Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Python** / **React Js**, capable de concevoir et livrer des applications web complètes.  
-Autonome et rigoureux, je m’adapte vite et apprécie les environnements **multi‑technologies**.
-
+Développeur **Back-End Node.js / TypeScript** avec 5 ans d’expérience, spécialisé dans la conception d’API REST robustes, l’architecture logicielle, les environnements CI/CD et les projets from scratch. Passionné par le **Clean Code**, les **Design Patterns**, la **POO**, les tests automatisés et les plateformes volumétriques. Autonome, rigoureux et orienté qualité, j’aime travailler dans des équipes agiles sur des projets techniques ambitieux.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
-- Téléphone : (+33) 06.58.37.06.05
+- Téléphone : (+33) 06.58.37.06.05  
 - Email : alex.balak@outlook.fr
-- Localisation : Lyon 8, France
-- Permis B
+
+
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
 
-- [fa:brands:python] **Python** : Flask, Django, FastAPI, automatisation, traitements de données  
-- [fa:brands:react] **React / Next.js** : JavaScript / TypeScript  
-- [fa:brands:html5] **Frontend** : HTML5, CSS3, Tailwind CSS  
-- [fa:solid:database] **Bases de données** : PostgreSQL, MySQL  
-- [fa:solid:server] **API REST** : Conception, développement, intégration (Flask, Django, FastAPI)  
-- [fa:solid:layer-group] **ORM** : SQLAlchemy, Django ORM, JPA  
-- [fa:brands:docker] **Docker** : Conteneurisation et déploiement  
-- [fa:brands:git-alt] **Git / GitHub** : Versionning, CI/CD  
-- [fa:brands:linux] **Linux** : Bash, Shell, scripting  
-- [fa:solid:code] **Architecture** : MVC, Clean Code, Design Patterns  
-- [fa:solid:robot] **Automatisation** : Scripts Python, ETL, génération de rapports  
-- [fa:solid:wrench] **Maintenance** : Debug, optimisation, correction d'anomalies
+- [fa:brands:node-js] **Node.js / TypeScript** : API REST, services backend, architecture modulaire  
+- [fa:solid:code] **Clean Code / SOLID / POO** : structuration, patterns, refactoring  
+- [fa:solid:flask] **Tests automatisés** : Mocha, Supertest, Cucumber, Gherkin  
+- [fa:brands:docker] **Docker / Kubernetes / OpenShift** : conteneurisation & déploiement  
+- [fa:brands:git-alt] **Git / GitLab CI / Jenkins** : pipelines CI/CD, automatisation  
+- [fa:solid:server] **Architecture Back-End** : POCs, specs techniques, conception de modules
+- [fa:brands:react] **React / Next.js** : Frontend moderne  
+- [fa:solid:database] **SQL / NoSQL** : PostgreSQL, MySQL, MongoDB  
+- [fa:solid:robot] **Automatisation** : scripts Node.js, pipelines internes  
+- [fa:solid:brain] **IA générative** : Copilot, ChatGPT, Claude (prototypage & accélération dev)
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
@@ -41,90 +37,69 @@ title: [fa:solid:certificate] Certifications
 - [fa:brands:react] Meta React Developer  
 - [fa:solid:server] IBM Node.js / Express Developer
 
+
+
 # LANGUAGES
 title: [fa:solid:language] Langues
-
 - Anglais — Courant (C1)  
 - Allemand — Notions
-
-# HOBBIES
-title: [fa:solid:person-running] Centres d'intérêt
-
-- [fa:solid:laptop-code] Développement de projets personnels  
-- [fa:solid:robot] Intelligence Artificielle  
-- [fa:solid:database] Architecture logicielle  
-- [fa:solid:dumbbell] Fitness / Musculation
 
 
 
 # EXPERIENCE
 title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Développeur Backend Python — Novocib
-**Jul 2025 – Fév 2026**
-- APIs REST Flask (Blueprints, middlewares)
-- Optimisation backend & SQL (PostgreSQL)
-- Développement de services Python
-- Automatisation (Python, Bash)
-- Amélioration continue & revues de code
+## Développeur Backend Java — Novocib
+**Jul 2025 – Feb 2026**  
+- Backend Spring Boot + PostgreSQL  
+- APIs REST internes (auth, rôles, services métier)  
+- Optimisation SQL, profiling, caching  
+- Logs, monitoring, alertes  
+- Refactoring & amélioration continue  
 
 ## Développeur SAGE X3 / Java — Kardol
-**Oct 2024 – Avr 2025**
-- Développement d'applications métier (L4G)
-- Backend Java / Spring Boot
-- Frontend React JS
-- Maintenance & évolution ERP
-- Intégration SQL / JPA
+**Oct 2024 – Avr 2025**  
+- Développement ERP Sage X3  
+- Application interne : Spring Boot + React  
+- Intégration SQL / JPA  
+- Optimisation des traitements  
+- Support technique & architecture  
 
-## Développeur Python / React — Novocib
-**Fév 2024 – Mai 2024**
-- Développement site web (Django + React)
-- APIs REST Flask / Django
-- Scripts Python (automatisation, parsing)
-- Interfaces React (components, routing)
-- Optimisation SQL & performances Python
+## Développeur Full‑Stack JS — Novocib
+**Fév 2024 – Mai 2024**  
+- Backend Node.js (API REST, middlewares, services internes)  
+- Automatisation (Python, Powershell, scripts Node.js)  
+- Pipelines internes & synchronisation de données  
+- CI/CD, monitoring, qualité du code  
 
 ## Analyste Fonctionnel N2 — CGI
-**Juil 2022 – Oct 2023**
-- Diagnostic d’incidents complexes
-- Automatisation Python (extraction, reporting)
-- Analyse SQL & support applicatif
-- Environnement critique & Agile
+**Juil 2022 – Oct 2023**  
+- Analyse de logs & reproduction d’anomalies  
+- Développement d’outils internes (Python, Bash)  
+- SQL avancé & support applicatif  
+- Documentation & fiabilisation des applications  
 
 ## Technicien Avionique — Armée de Terre
-**Mar 2010 – Juin 2021**
-- Diagnostic systèmes électroniques
-- Analyse & résolution de pannes
-- Développement de petits outils internes en Python pour automatiser des vérifications techniques
-- Documentation technique en anglais
-
-
-
+**Mar 2010 – Juin 2021**  
+- Diagnostic systèmes électroniques embarqués  
+- Résolution de pannes complexes
 
 # PROJECTS
 title: [fa:solid:folder-open] Projets
 
+## Plateforme interne Node.js (from scratch)
+Développement d’une plateforme interne en Node.js avec architecture modulaire, API REST, gestion des rôles, pipelines de données et intégration CI/CD.
+
+## Automatisation & Pipelines
+Création de scripts Node.js, automatisation de traitements internes, génération de rapports, synchronisation de données et mise en place de workflows techniques.
+
 ## Générateur de Documents
-- Développement d'une application Full-Stack de génération de documents  
-- Python (Flask), PHP, Bootstrap, MySQL  
-- Génération de factures, devis et documents PDF (Python + libs PDF)  
-- Architecture modulaire et extensible
-
-## Portfolio Développeur
-- Développement d'un portfolio moderne en React  
-- Responsive Design  
-- Dark / Light Mode  
-- Optimisation des performances
-
-## Outils d'Automatisation
-- Développement de scripts Python (ETL, parsing, génération de rapports)  
-- Automatisation de traitements métier  
-- Manipulation de données
+Application Python/PHP pour générer des PDF (factures, devis) avec architecture modulaire et automatisation de la production documentaire.
 
 # EDUCATION
 title: [fa:solid:graduation-cap] Formations
 
-## Bac+2 : Développeur Web Full-Stack  
+## Bac+2 : Développeur Web Full‑Stack  
 CMFP (AFPA), Fontenay-le-Comte  
 **Août 2020 – Juin 2021**
 
