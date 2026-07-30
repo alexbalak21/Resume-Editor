@@ -1,15 +1,17 @@
 # HEADER
 Alexandre Balakirev  
-Développeur Backend Java / Spring Boot
+Développeur Full‑Stack Java / React
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
-title: Profil
-Développeur **Backend Java** avec une solide expérience en **développement d’API REST**, **optimisation SQL** et **maintenance applicative**. Habitué aux environnements techniques variés, je conçois, corrige et améliore des applications backend en garantissant performance, fiabilité et continuité de service.
+title: [fa:solid:user] Profil
+Développeur **Java**, **Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes. <br>
+Rigoureux et autonome, je m’adapte vite et eapprécie les environnements multi‑technologies et variés.
+
 
 # CONTACT
-title: Contact
+title: [fa:solid:address-card] Contact
 - Téléphone : (+33) 06.58.37.06.05 | tel:+33658370605
 - Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr
 - Localisation : Lyon 8, France
@@ -17,7 +19,7 @@ title: Contact
 - Permis : Permis B
 
 # SKILLS
-title: Compétences
+title: [fa:solid:screwdriver-wrench] Compétences
 - [fa:brands:java] Java / Spring Boot (API REST / Backend)
 - [fa:solid:database] PostgreSQL / MySQL (Optimisation SQL)
 - [fa:solid:bug] Analyse d’incidents, diagnostic, reproduction et correction logicielle
@@ -30,19 +32,19 @@ title: Compétences
 
 
 # CERTIFICATIONS
-title: Certifications
-- IBM Java Developer
-- Microsoft Python Developer
-- Meta React Developer
-- IBM Node / Express Developer
+title: [fa:solid:certificate] Certifications
+- [fa:solid:i] IBM Java Developer
+- [fa:brands:microsoft] Microsoft Python Developer
+- [fa:brands:react] Meta React Developer
+- [fa:solid:server] IBM Node / Express Developer
 
 # LANGUAGES
-title: Langues
+title: [fa:solid:language] Langues
 - Anglais — Courant - C1
 - Allemand — Notions
 
 # HOBBIES
-title: Intérêts
+title: [fa:solid:person-running] Centres d'intérêt
 - Fitness / Musculation
 - Escalade / Randonnée
 
@@ -51,35 +53,41 @@ title: Expériences Professionnelles
 
 ## Développeur Backend Java — Novocib
 **Jul 2025 – Feb 2026**
-- Développement et amélioration d’outils backend (Spring Boot, PostgreSQL)
-- Conception et maintenance d’API REST
-- Optimisation de performances et fiabilité des services
-- Participation aux revues de code et bonnes pratiques Git
+- Développement backend (Spring Boot, PostgreSQL, JPA)
+- Conception, développement d’API REST (Spring Web, Security)
+- Optimisation SQL et performances backend
+- Tests unitaires (JUnit) et refactoring
+- Structuration des services (Controller, Service, Repository)
+- Gestion des logs et monitoring (Actuator)
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
-- Developpement ERP Sage X3  (L4G)
-- Développement d'application de ticketing (Java/Spring Boot & React JS)
+- Développement ERP Sage X3 (L4G, SQL)
+- Application de ticketing (Spring Boot, JPA, SQL, React)
+- Conception de services REST et logique métier
+- Maintenance, évolution et optimisation d’applications Java
+- Intégration SQL / JPA pour les modules métier
 
-## Développeur Full-Stack — Novocib
+## Développeur Full-Stack Java — Novocib
 **Fév 2024 – Mai 2024**
-- Développement backend (Spring Boot, MySQL) et APIs internes
-- Devloppement Frontend (React JS, Next JS)
+- Développement backend et APIs internes (Spring Boot, MySQL)
+- Développement frontend (React JS, Astro)
 - Automatisation de tâches (Python, Powershell)
- 
+- Intégration front - back (REST, DTO, services Spring)
+- Optimisation des requêtes SQL et performances backend
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic et résolution d’incidents sur logiciels critiques
-- Analyse de logs, reproduction d’anomalies, corrections
+- Diagnostic et résolution d’incidents logiciels
+- Analyse de logs, reproduction d’anomalies
 - Développement d’outils internes (Python, Bash)
-- Travail en environnement exigeant (EDF)
-- Developpement 
+- Participation à la maintenance d’applications Java
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
 - Diagnostic de systèmes embarqués complexes
 - Travail en anglais sur documentation technique
+
 
 # EDUCATION
 title: Formations
