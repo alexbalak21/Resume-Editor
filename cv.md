@@ -1,108 +1,92 @@
+<!-- CV Full-Stack Python / React -->
+
 # HEADER
 Alexandre Balakirev  
-Développeur Back-End Node.js / TypeScript  
+**Python & React Js - Fullstack Developer**  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
-title: [fa:solid:user] Profil
-Développeur **Back-End Node.js / TypeScript** avec 5 ans d’expérience, spécialisé dans la conception d’API REST robustes, l’architecture logicielle, les environnements CI/CD et les projets from scratch. Passionné par le **Clean Code**, les **Design Patterns**, la **POO**, les tests automatisés et les plateformes volumétriques. Autonome, rigoureux et orienté qualité, j’aime travailler dans des équipes agiles sur des projets techniques ambitieux.
+title: [fa:solid:user] Profile
+Full-Stack Developer specialized in **Python** and **React JS**, able to design, build, and deliver complete applications.  
+Highly **rigorous** and **autonomous**, I adapt quickly and thrive in demanding technical environments.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
-- Téléphone : (+33) 06.58.37.06.05  
-- Email : alex.balak@outlook.fr
-
-
+- Phone: (+33) 06.58.37.06.05 | tel:+33658370605  
+- Email: alex.balak@outlook.fr | mailto:alex.balak@outlook.fr  
+- Location: Lyon 8, France  
+- Birthday: 06/11/1985  
+- Driving License  
 
 # SKILLS
-title: [fa:solid:screwdriver-wrench] Compétences
-
-- [fa:brands:node-js] **Node.js / TypeScript** : API REST, services backend, architecture modulaire  
-- [fa:solid:code] **Clean Code / SOLID / POO** : structuration, patterns, refactoring  
-- [fa:solid:flask] **Tests automatisés** : Mocha, Supertest, Cucumber, Gherkin  
-- [fa:brands:docker] **Docker / Kubernetes / OpenShift** : conteneurisation & déploiement  
-- [fa:brands:git-alt] **Git / GitLab CI / Jenkins** : pipelines CI/CD, automatisation  
-- [fa:solid:server] **Architecture Back-End** : POCs, specs techniques, conception de modules
-- [fa:brands:react] **React / Next.js** : Frontend moderne  
-- [fa:solid:database] **SQL / NoSQL** : PostgreSQL, MySQL, MongoDB  
-- [fa:solid:robot] **Automatisation** : scripts Node.js, pipelines internes  
-- [fa:solid:brain] **IA générative** : Copilot, ChatGPT, Claude (prototypage & accélération dev)
+title: [fa:solid:screwdriver-wrench] Skills
+- [fa:brands:python] Python / Flask / Django
+- [fa:brands:react] React JS / Next.js / Astro
+- [fa:brands:js] JavaScript / TypeScript
+- [fa:solid:code] HTML / CSS / Tailwind CSS  
+- [fa:brands:java] Java / Spring Boot  
+- [fa:solid:database] SQL / MySQL / MongoDB  
+- [fa:brands:git-alt] Git / GitHub Actions  
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-
-- [fa:brands:microsoft] Microsoft Python Developer  
-- [fa:solid:i] IBM Java Developer  
-- [fa:brands:react] Meta React Developer  
-- [fa:solid:server] IBM Node.js / Express Developer
-
-
+- IBM Java Developer  
+- Microsoft Python Developer  
+- Meta React Developer  
 
 # LANGUAGES
-title: [fa:solid:language] Langues
-- Anglais — Courant (C1)  
-- Allemand — Notions
+title: [fa:solid:language] Languages
+- English — Fluent (Speaking & Technical, C1 Certificate)  
+- French — Fluent (In France for 30 years)  
+- German — Basic  
 
-
+# HOBBIES
+title: [fa:solid:person-running] Interests
+- Fitness / Weight Training  
+- Climbing / Hiking  
 
 # EXPERIENCE
-title: [fa:solid:briefcase] Expériences Professionnelles
+title: [fa:solid:briefcase] Work Experience
 
-## Développeur Backend Java — Novocib
-**Jul 2025 – Feb 2026**  
-- Backend Spring Boot + PostgreSQL  
-- APIs REST internes (auth, rôles, services métier)  
-- Optimisation SQL, profiling, caching  
-- Logs, monitoring, alertes  
-- Refactoring & amélioration continue  
+## Full-Stack Developer — Novocib
+**Jul 2025 – Feb 2026**
+- Improved SCO and developed internal back-office tools (Python, Flask, PostgreSQL)  
+- Built responsive front-end interfaces using React JS and Tailwind CSS  
 
-## Développeur SAGE X3 / Java — Kardol
-**Oct 2024 – Avr 2025**  
-- Développement ERP Sage X3  
-- Application interne : Spring Boot + React  
-- Intégration SQL / JPA  
-- Optimisation des traitements  
-- Support technique & architecture  
+## SAGE X3 Developer — Kardol
+**Oct 2024 – Apr 2025**
+- Developed modules for the Sage X3 ERP (L4G, SQL, REST API)  
+- Worked on REST APIs and business logic  
 
-## Développeur Full‑Stack JS — Novocib
-**Fév 2024 – Mai 2024**  
-- Backend Node.js (API REST, middlewares, services internes)  
-- Automatisation (Python, Powershell, scripts Node.js)  
-- Pipelines internes & synchronisation de données  
-- CI/CD, monitoring, qualité du code  
+## Full-Stack Developer — Novocib
+**Feb 2024 – May 2024**
+- Full design and development of the company website (PHP, Laravel, MySQL, Bootstrap)  
+- Built a custom back-office (Express, React)  
+- Developed dynamic interfaces with React JS  
 
-## Analyste Fonctionnel N2 — CGI
-**Juil 2022 – Oct 2023**  
-- Analyse de logs & reproduction d’anomalies  
-- Développement d’outils internes (Python, Bash)  
-- SQL avancé & support applicatif  
-- Documentation & fiabilisation des applications  
+## Web Developer — Fly'IT
+**Oct 2023 – Nov 2023**
+- Created the company website (HTML, CSS, JS, PHP)  
 
-## Technicien Avionique — Armée de Terre
-**Mar 2010 – Juin 2021**  
-- Diagnostic systèmes électroniques embarqués  
-- Résolution de pannes complexes
+## Functional Analyst N2 — CGI
+**Jul 2022 – Oct 2023**
+- Diagnosed and resolved issues on CAD software used by EDF (Bash, C)  
+- User support and bug fixing (Jira)  
+- Developed internal tools in Python  
 
-# PROJECTS
-title: [fa:solid:folder-open] Projets
-
-## Plateforme interne Node.js (from scratch)
-Développement d’une plateforme interne en Node.js avec architecture modulaire, API REST, gestion des rôles, pipelines de données et intégration CI/CD.
-
-## Automatisation & Pipelines
-Création de scripts Node.js, automatisation de traitements internes, génération de rapports, synchronisation de données et mise en place de workflows techniques.
-
-## Générateur de Documents
-Application Python/PHP pour générer des PDF (factures, devis) avec architecture modulaire et automatisation de la production documentaire.
+## Avionics Technician — French Army
+**Mar 2010 – Jun 2021**
+- Maintenance and diagnostics of critical avionics systems  
+- Managed onboard IT systems in English  
 
 # EDUCATION
-title: [fa:solid:graduation-cap] Formations
+title: [fa:solid:graduation-cap] Education
 
-## Bac+2 : Développeur Web Full‑Stack  
+## Associate Degree — Full-Stack Web Development
 CMFP (AFPA), Fontenay-le-Comte  
-**Août 2020 – Juin 2021**
+**Aug 2020 – Jun 2026**
 
-## Licence Aéronautique  
-Armée de l'Air, BA721  
-**Juin 2011 – Juin 2012**
+## Aeronautics License
+French Air Force, BA721  
+**Jun 2011 – Jun 2012**

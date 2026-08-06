@@ -188,16 +188,20 @@ function parseTimelineSection(string $content): array
     $blocks = preg_split('/^## (.+)$/m', $content, -1, PREG_SPLIT_DELIM_CAPTURE);
     $items  = [];
     for ($i = 1; $i < count($blocks); $i += 2) {
-        $title     = trim($blocks[$i]);
-        $body      = trim($blocks[$i + 1]);
-        $metaParts = [];
-        $bullets   = [];
+        $title      = trim($blocks[$i]);
+        $body       = trim($blocks[$i + 1]);
+        $metaParts  = [];
+        $extraLines = [];
+        $bullets    = [];
 
         foreach (preg_split('/\r?\n/', $body) as $line) {
             $line = trim($line);
             if ($line === '') continue;
             if (preg_match('/^-\s+(.*)$/', $line, $m)) {
                 $bullets[] = trim($m[1]);
+            } elseif (preg_match('/^\*\*(.+?)\*\*\s*:\s*(.+)$/', $line, $m)) {
+                // e.g. "**Modules** : Java / Spring, React, ..." — kept on its own line, not chained with —
+                $extraLines[] = trim($m[1]) . ' : ' . trim($m[2]);
             } elseif (preg_match('/^\*\*(.+)\*\*$/', $line, $m)) {
                 $metaParts[] = trim($m[1]);
             } else {
@@ -208,6 +212,7 @@ function parseTimelineSection(string $content): array
         $items[] = [
             'title'   => $title,
             'meta'    => implode(' — ', $metaParts),
+            'extra'   => $extraLines,
             'bullets' => $bullets,
         ];
     }
@@ -223,6 +228,11 @@ function renderTimeline(array $items): string
         $html .= '    <h4 class="job-title">' . MiniMarkdown::inline($item['title']) . "</h4>\n";
         $html .= '    <span class="job-meta">' . MiniMarkdown::inline($item['meta']) . "</span>\n";
         $html .= "  </div>\n";
+        if (!empty($item['extra'])) {
+            foreach ($item['extra'] as $extraLine) {
+                $html .= '  <div class="job-extra">' . MiniMarkdown::inline($extraLine) . "</div>\n";
+            }
+        }
         if (!empty($item['bullets'])) {
             $html .= "  <ul>\n";
             foreach ($item['bullets'] as $bullet) {

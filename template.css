@@ -1,7 +1,7 @@
 :root {
     --margin-icon : 27px;
     --skills-wrap-indent: 25px;
-    --vertical-line-experience-height: 75px;
+    --vertical-line-experience-height: 90px;
     --vertical-line-education-height: 50px;
 }
 
@@ -354,6 +354,17 @@ main {
     flex-shrink: 0;
     margin-left: auto;
     margin-top: 0;
+}
+
+.job-extra {
+    font-size: 11.5px;
+    color: #666;
+    margin-top: 3px;
+}
+
+.job-extra strong {
+    color: #4A6FA5;
+    font-weight: 600;
 }
 
 .timeline-item ul {

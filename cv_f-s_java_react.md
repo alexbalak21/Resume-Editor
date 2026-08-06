@@ -1,13 +1,13 @@
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack Java / React 
+Développeur Full‑Stack Java / React<br>Alternance Bachelor 3 (Septembre 2026)
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Java**, **Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes. <br>
-Rigoureux et autonome, je m’adapte vite et eapprécie les environnements multi‑technologies et variés.
+Développeur **Java**, **Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes.<br>
+Je recherche un **Alternance** pour **Spetembre 2026** pour un Bachelor 3 : Développeur d'applications pour un an.
 
 
 # CONTACT
@@ -79,7 +79,6 @@ title: Expériences Professionnelles
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
 - Diagnostic et résolution d’incidents logiciels
-- Analyse de logs, reproduction d’anomalies
 - Développement d’outils internes (Python, Bash)
 - Participation à la maintenance d’applications Java
 
@@ -92,10 +91,13 @@ title: Expériences Professionnelles
 # EDUCATION
 title: Formations
 
-## Bac+2 : Développeur Web Full-Stack
+## Bachelor 3 : Développeur Full‑Stack (Admis)
+YNOV Campus Lyon  
+**Septembre 2026 – Août 2027**<br>
+**Modules** : Java / Spring, React, Architecture logicielle, DevOps, Bases de données, Sécurité
+
+## Bac+2 : Développeur Web et Web Mobile
 CMFP (AFPA), Fontenay-le-Comte  
 **Août 2020 – Juin 2021**
 
-## Licence Aéronautique
-Armée de l'air, BA721  
-**Juin 2011 – Juin 2012**
+
