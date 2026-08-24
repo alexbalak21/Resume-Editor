@@ -1,92 +1,102 @@
-<!-- CV Full-Stack Python / React -->
+<!-- CV Technicien Support Applicatif / Développeur Junior -->
 
 # HEADER
 Alexandre Balakirev  
-**Python & React Js - Fullstack Developer**  
+**Développeur Web / Technicien Support N2**  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
-title: [fa:solid:user] Profile
-Full-Stack Developer specialized in **Python** and **React JS**, able to design, build, and deliver complete applications.  
-Highly **rigorous** and **autonomous**, I adapt quickly and thrive in demanding technical environments.
+title: [fa:solid:user] Profil
+Développeur Web avec une solide expérience en **support applicatif**, **analyse d'incidents** et **diagnostic technique**.  
+À l'aise pour comprendre les applications métier, reproduire des anomalies, lire du code et manipuler des données SQL.  
+Autonome, rigoureux et orienté service, je m'épanouis dans des rôles combinant **support**, **analyse** et **investigation technique**.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
-- Phone: (+33) 06.58.37.06.05 | tel:+33658370605  
-- Email: alex.balak@outlook.fr | mailto:alex.balak@outlook.fr  
-- Location: Lyon 8, France  
-- Birthday: 06/11/1985  
-- Driving License  
+- Téléphone : (+33) 06.58.37.06.05 | tel:+33658370605  
+- Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr  
+- Localisation : Lyon 8, France  
+- Date de naissance : 06/11/1985  
+- Permis de conduire  
 
 # SKILLS
-title: [fa:solid:screwdriver-wrench] Skills
-- [fa:brands:python] Python / Flask / Django
-- [fa:brands:react] React JS / Next.js / Astro
-- [fa:brands:js] JavaScript / TypeScript
-- [fa:solid:code] HTML / CSS / Tailwind CSS  
-- [fa:brands:java] Java / Spring Boot  
-- [fa:solid:database] SQL / MySQL / MongoDB  
-- [fa:brands:git-alt] Git / GitHub Actions  
+title: [fa:solid:screwdriver-wrench] Compétences
+- [fa:solid:headset] Support applicatif N1/N2 (tickets, utilisateurs, communication)
+- [fa:solid:bug] Diagnostic & analyse d'incidents (logs, reproduction, investigation)
+- [fa:solid:database] SQL : requêtes, vérification & correction de données
+- [fa:solid:code] Bases en développement : Java / Spring Boot, Python / Flask, PHP / Laravel, Node.js
+- [fa:solid:server] Environnements applicatifs : Windows, Linux, Bash
+- [fa:solid:gears] Compréhension du code & analyse technique
+- [fa:brands:git-alt] Git / CI/CD / outils internes
+- [fa:solid:book] Documentation technique & base de connaissances
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-- IBM Java Developer  
-- Microsoft Python Developer  
-- Meta React Developer  
+
+- [fa:brands:microsoft] Microsoft Python Developer  
+- [fa:solid:i] IBM Java Developer  
+- [fa:brands:react] Meta React Developer  
+- [fa:solid:server] IBM Node.js / Express Developer
+ 
 
 # LANGUAGES
-title: [fa:solid:language] Languages
-- English — Fluent (Speaking & Technical, C1 Certificate)  
-- French — Fluent (In France for 30 years)  
-- German — Basic  
+title: [fa:solid:language] Langues
+- Anglais — Courant (C1)  
+- Allemand — Notions de base  
+- Russe — Langue maternelle  
 
 # HOBBIES
-title: [fa:solid:person-running] Interests
-- Fitness / Weight Training  
-- Climbing / Hiking  
+title: [fa:solid:person-running] Centres d'intérêt
+- Fitness / Musculation  
+- Escalade / Randonnée  
 
 # EXPERIENCE
-title: [fa:solid:briefcase] Work Experience
+title: [fa:solid:briefcase] Expérience professionnelle
 
-## Full-Stack Developer — Novocib
-**Jul 2025 – Feb 2026**
-- Improved SCO and developed internal back-office tools (Python, Flask, PostgreSQL)  
-- Built responsive front-end interfaces using React JS and Tailwind CSS  
+## Analyste Fonctionnel N2 — CGI
+**Juil 2022 – Oct 2023**
+- Support applicatif N2 sur logiciels métiers (EDF)  
+- Diagnostic d'incidents : logs, reproduction, analyse technique  
+- Prise en charge des tickets utilisateurs (Jira)  
+- Correction N1/N2 et suivi complet des incidents  
+- Développement d'outils internes (Python, Bash)  
+- Rédaction de documentation technique  
 
-## SAGE X3 Developer — Kardol
-**Oct 2024 – Apr 2025**
-- Developed modules for the Sage X3 ERP (L4G, SQL, REST API)  
-- Worked on REST APIs and business logic  
+## Développeur SAGE X3 — Kardol
+**Oct 2024 – Avr 2025**
+- Analyse et correction d'anomalies sur ERP Sage X3  
+- Lecture et exploitation SQL / JPA  
+- Développement de modules métier (L4G, Java, REST API)  
+- Collaboration avec les équipes techniques pour les correctifs  
 
-## Full-Stack Developer — Novocib
-**Feb 2024 – May 2024**
-- Full design and development of the company website (PHP, Laravel, MySQL, Bootstrap)  
-- Built a custom back-office (Express, React)  
-- Developed dynamic interfaces with React JS  
+## Développeur Full-Stack — Novocib
+**Fév 2024 – Fév 2026**
+- Maintenance et amélioration d'applications internes  
+- Correction de bugs, optimisation SQL, refactoring  
+- Développement d'APIs (Java, Python, Node.js)  
+- Automatisation (Python, Bash, Powershell)  
+- Interaction régulière avec les équipes techniques  
 
-## Web Developer — Fly'IT
+## Développeur Web — Fly'IT
 **Oct 2023 – Nov 2023**
-- Created the company website (HTML, CSS, JS, PHP)  
+- Création du site vitrine (HTML, CSS, JS, PHP)  
+- Support technique et corrections d'anomalies  
 
-## Functional Analyst N2 — CGI
-**Jul 2022 – Oct 2023**
-- Diagnosed and resolved issues on CAD software used by EDF (Bash, C)  
-- User support and bug fixing (Jira)  
-- Developed internal tools in Python  
-
-## Avionics Technician — French Army
-**Mar 2010 – Jun 2021**
-- Maintenance and diagnostics of critical avionics systems  
-- Managed onboard IT systems in English  
+## Technicien Avionique — Armée de Terre
+**Mar 2010 – Juin 2021**
+- Diagnostic de systèmes embarqués critiques  
+- Analyse de pannes complexes  
+- Documentation technique en anglais  
+- Travail en environnement exigeant et procédural  
 
 # EDUCATION
-title: [fa:solid:graduation-cap] Education
+title: [fa:solid:graduation-cap] Formation
 
-## Associate Degree — Full-Stack Web Development
+## BTS — Développement Web et Web Mobile
 CMFP (AFPA), Fontenay-le-Comte  
-**Aug 2020 – Jun 2026**
+**Août 2020 – Juin 2021**
 
-## Aeronautics License
-French Air Force, BA721  
-**Jun 2011 – Jun 2012**
+## Licence d'Aéronautique
+Armée de l'Air française, BA721  
+**Juin 2011 – Juin 2012**

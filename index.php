@@ -59,7 +59,7 @@ $locale = [
             'license'           => '<i class="fa-solid fa-car"></i>',
             'driving'           => '<i class="fa-solid fa-car"></i>',
         ],
-        'template' => 'template_fr.html',
+        'template' => 'template.html',
     ],
     'en' => [
         'sectionLabels' => [
