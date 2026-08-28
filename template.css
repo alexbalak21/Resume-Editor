@@ -251,6 +251,11 @@ main {
     font-size: 12.5px;
 }
 
+#experience{
+    margin-top: 20px;
+}
+
+
 #experience,
 #education {
     margin-bottom: 14px;
