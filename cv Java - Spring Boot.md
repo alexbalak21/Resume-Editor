@@ -1,16 +1,15 @@
-<!-- CV Développeur Full-Stack Java / React – Orienté Backend -->
+<!-- CV Développeur Java / Spring Boot – Orienté Backend -->
 
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack Java / React 
+Développeur Java / Spring Boot  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Java**, **Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes. <br>
-Rigoureux et autonome, je m’adapte vite et eapprécie les environnements multi‑technologies et variés.
-
+Développeur **Java**, **Spring Boot**: JPA, Spring Security, capable de concevoir, développer et livrer des applications complètes. <br>
+Rigoureux et autonome, je m'adapte vite et apprécie les environnements multi‑technologies et variés.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -22,16 +21,17 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:java] Java / Spring Boot (API REST / Backend)
+- [fa:brands:java] Java 17/21 / Spring Boot (API REST, Spring Security, Spring Data JPA)
 - [fa:solid:database] PostgreSQL / MySQL (Optimisation SQL)
-- [fa:solid:bug] Analyse d’incidents, diagnostic, reproduction et correction logicielle
-- [fa:solid:server] **Dev Backend** : Python, Node, Php, Go
+- [fa:solid:diagram-project] Méthodologie Agile / Scrum (sprint planning, reviews, daily)
+- [fa:solid:bug] Analyse d'incidents, diagnostic, reproduction et correction logicielle
+- [fa:brands:react] Frontend : React JS, Astro — bases JS/TS transposables à Angular
+- [fa:solid:server] **Dev complémentaire** : Python, Node, PHP, Go
 - [fa:solid:gears] **CI/CD** : GitHub Actions / GitLab CI
 - [fa:brands:docker] Docker / Déploiement sur serveur
 - [fa:brands:git-alt] **Git** : Bonnes pratiques, revue de code
 - [fa:solid:terminal] **Bash** : Scripting, Automatisation
 - [fa:solid:ticket] Outils de ticketing : Jira, Zendesk
-
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
@@ -55,19 +55,19 @@ title: Expériences Professionnelles
 
 ## Développeur Backend Java — Novocib
 **Jul 2025 – Jul 2026**
-- Développement backend (Spring Boot, PostgreSQL, JPA)
-- Conception, développement d’API REST (Spring Web, Security)
+- Développement backend (Spring Boot, PostgreSQL, JPA) sur des problématiques métier analytiques et réglementaires (conformité, documents de suivi)
+- Conception, développement d'API REST (Spring Web, Security)
 - Optimisation SQL et performances backend
 - Tests unitaires (JUnit) et refactoring
 - Structuration des services (Controller, Service, Repository)
-- Gestion des logs et monitoring (Actuator)
+- Participation aux cérémonies Scrum (sprint planning, reviews)
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
 - Développement ERP Sage X3 (L4G, SQL)
 - Application de ticketing (Spring Boot, JPA, SQL, React)
 - Conception de services REST et logique métier
-- Maintenance, évolution et optimisation d’applications Java
+- Maintenance, évolution et optimisation d'applications Java
 - Intégration SQL / JPA pour les modules métier
 
 ## Développeur Full-Stack Java — Novocib
@@ -80,16 +80,15 @@ title: Expériences Professionnelles
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic et résolution d’incidents logiciels
-- Analyse de logs, reproduction d’anomalies
-- Développement d’outils internes (Python, Bash)
-- Participation à la maintenance d’applications Java
+- Diagnostic et résolution d'incidents logiciels
+- Analyse de logs, reproduction d'anomalies
+- Développement d'outils internes (Python, Bash)
+- Participation à la maintenance d'applications Java
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
 - Diagnostic de systèmes embarqués complexes
 - Travail en anglais sur documentation technique
-
 
 # EDUCATION
 title: Formations

@@ -7,7 +7,7 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 # PROFILE
 title: [fa:solid:user] Profil
 Développeur **Java**, **Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes. <br>
-Rigoureux et autonome, je m’adapte vite et eapprécie les environnements multi‑technologies et variés.
+Rigoureux et autonome, je m’adapte vite et apprécie les environnements multi‑technologies et variés.
 
 
 # CONTACT
