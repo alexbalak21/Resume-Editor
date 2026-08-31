@@ -1,3 +1,5 @@
+<!-- CV Développeur Full-Stack Java / React – Orienté Backend -->
+
 # HEADER
 Alexandre Balakirev  
 Développeur Full‑Stack Java / React<br>Alternance Bachelor 3 (Septembre 2026)
