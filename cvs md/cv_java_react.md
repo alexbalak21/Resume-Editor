@@ -49,7 +49,7 @@ title: [fa:solid:person-running] Centres d'intérêt
 - Escalade / Randonnée
 
 # EXPERIENCE
-title: Expériences Professionnelles
+title: [fa:solid:briefcase] Expériences Professionnelles
 
 ## Développeur Backend Java — Novocib
 **Jul 2025 – Feb 2026**
@@ -90,7 +90,7 @@ title: Expériences Professionnelles
 
 
 # EDUCATION
-title: Formations
+title: [fa:solid:graduation-cap] Formations
 
 ## Bac+2 : Développeur Web Full-Stack
 CMFP (AFPA), Fontenay-le-Comte  

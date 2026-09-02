@@ -71,10 +71,10 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 ## Développeur Full-Stack Java — Novocib
 **Fév 2024 – Mai 2024**
 - Développement backend et APIs internes (Spring Boot, MySQL)
-- Développement frontend (React JS, Astro)
-- Automatisation de tâches (Python, Powershell)
-- Intégration front - back (REST, DTO, services Spring)
+- Développement frontend (React JS, Tailwind)
+- Intégration front - back (REST, DTO, MVC)
 - Optimisation des requêtes SQL et performances backend
+- Automatisation de tâches (Python, Powershell)
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**

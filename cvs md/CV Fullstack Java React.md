@@ -1,4 +1,4 @@
-<!-- CV Fullstack Java Js -->
+<!-- CV Fullstack Java React -->
 
 # HEADER
 Alexandre Balakirev  
@@ -8,8 +8,8 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Java / Spring Boot**, **React Js** et **PHP**, capable de concevoir, développer et livrer des applications complètes. <br>
-Touche-à-tout et curieux, j'aime évoluer sur des technologies variées (Java, JavaScript, PHP, Python) et apprendre en continu.
+Développeur **Java, Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes.
+Rigoureux et autonome, je m’adapte vite et apprécie les environnements multi‑technologies et variés.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -69,12 +69,13 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 - Maintenance, évolution et optimisation d'applications Java
 - Intégration SQL / JPA pour les modules métier
 
-## Développeur Full-Stack PHP — Novocib
+## Développeur Full-Stack Java — Novocib
 **Fév 2024 – Mai 2024**
-- Développement backend PHP (Laravel, MySQL)
-- Développement frontend (React JS, Astro, HTML, CSS, Bootstrap)
+- Développement backend et APIs internes (Spring Boot, MySQL)
+- Développement frontend (React JS, Tailwind)
+- Intégration front - back (REST, DTO, MVC)
+- Optimisation des requêtes SQL et performances backend
 - Automatisation de tâches (Python, Powershell)
-- Intégration front - back (REST, DTO)
 
 ## Développeur Web — Fly'IT
 **Oct 2023 – Nov 2023**
