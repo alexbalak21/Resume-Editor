@@ -1,4 +1,4 @@
-<!-- CV Java / React -->
+<!-- CV Fullstack Java React -->
 
 # HEADER
 Alexandre Balakirev  
@@ -8,9 +8,8 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Java**, **Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes. <br>
-Rigoureux et autonome, je m'adapte vite et apprécie les environnements multi-technologies et variés. <br>
-Utilisateur régulier d'assistants de code IA (Copilot, Claude) dans mon quotidien de développement.
+Développeur **Java, Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes.
+Rigoureux et autonome, je m’adapte vite et apprécie les environnements multi‑technologies et variés.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -23,11 +22,11 @@ title: [fa:solid:address-card] Contact
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
 - [fa:brands:java] Java / Spring Boot (API REST / Backend)
-- [fa:brands:react] React JS : composants, intégration front-back
+- [fa:brands:react] React JS : Components, Hooks, Axios
 - [fa:solid:database] PostgreSQL / MySQL (Optimisation SQL)
 - [fa:solid:bug] Analyse d'incidents, diagnostic, reproduction et correction logicielle
-- [fa:solid:robot] IA générative : Copilot, Claude (génération et revue de code assistée)
-- [fa:solid:server] **Dev complémentaire** : Python, Node, PHP, Go
+- [fa:solid:robot] IA générative : Copilot, Claude
+- [fa:solid:server] **Autre Dev** : Python, Node, PHP
 - [fa:solid:gears] **CI/CD** : GitHub Actions / GitLab CI
 - [fa:brands:docker] Docker / Déploiement sur serveur
 - [fa:brands:git-alt] **Git** : Bonnes pratiques, revue de code
@@ -56,28 +55,31 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 
 ## Développeur Backend Java — Novocib
 **Jul 2025 – Mai 2026**
-- Développement backend (Spring Boot, PostgreSQL, JPA)
+- Développement backend (Spring Boot, JPA, PostgreSQL)
 - Conception, développement d'API REST (Spring Web, Security)
 - Optimisation SQL et performances backend
 - Tests unitaires (JUnit) et refactoring
 - Structuration des services (Controller, Service, Repository)
-- Gestion des logs et monitoring (Actuator)
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
 - Développement ERP Sage X3 (L4G, SQL)
-- Application de ticketing (Spring Boot, JPA, SQL, React)
-- Conception de services REST et logique métier
-- Maintenance, évolution et optimisation d'applications Java
+- Développement d'application de ticketing (Spring Boot, JPA, React)
 - Intégration SQL / JPA pour les modules métier
+- Conception de services REST et logique métier
+
 
 ## Développeur Full-Stack Java — Novocib
 **Fév 2024 – Mai 2024**
 - Développement backend et APIs internes (Spring Boot, MySQL)
-- Développement frontend (React JS, Astro)
-- Automatisation de tâches (Python, Powershell)
-- Intégration front - back (REST, DTO, services Spring)
+- Développement frontend (React JS, Tailwind)
+- Intégration front - back (REST, DTO, MVC)
 - Optimisation des requêtes SQL et performances backend
+
+## Développeur Web — Fly'IT
+**Oct 2023 – Nov 2023**
+- Création du site vitrine (HTML, CSS, JS, PHP)
+- Intégration responsive et optimisation UX
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
