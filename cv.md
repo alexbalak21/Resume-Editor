@@ -6,7 +6,10 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Full-Stack multi-technique** (Java/Spring Boot, PHP/Laravel, Python/Flask, React JS), en Licence Pro DEVOPS à Lyon 1, à la recherche d'une alternance. Autonome et rigoureux, je m'adapte vite à des stacks variées.
+Développeur **Full‑Stack multi‑technique** (Java, PHP, Python, JavaScript), en **Licence Pro DEVOPS à Lyon 1** et en recherche d’une alternance 2026–2027. <br>
+Autonome, rigoureux et motivé, j’aime apprendre, optimiser et contribuer à des projets concrets.
+
+
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -47,37 +50,7 @@ title: [fa:solid:person-running] Centres d'intérêt
 - Fitness / Musculation
 - Escalade / Randonnée
 
-# EXPERIENCE
-title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Développeur Full-Stack — Novocib
-**Jul 2025 – Mai 2026**
-- Backend (Java/Spring Boot, PHP/Laravel, Python/Flask) et frontend (React JS)
-- Conception d'API REST, optimisation SQL (PostgreSQL, MySQL)
-- Tests unitaires, refactoring, revues de code
-
-## Développeur SAGE X3 / Java — Kardol
-**Oct 2024 – Avr 2025**
-- Développement ERP Sage X3 (L4G, SQL) et application interne (Spring Boot, JPA, React, MySQL)
-
-## Développeur Full-Stack — Novocib
-**Fév 2024 – Mai 2024**
-- Backend/APIs (Spring Boot, PHP, MySQL) et frontend (React JS, Tailwind)
-- Intégration front-back (REST, DTO, MVC)
-
-## Développeur Web — Fly'IT
-**Oct 2023 – Nov 2023**
-- Création du site vitrine (HTML, CSS, JS, PHP)
-- Intégration responsive et optimisation UX
-
-## Analyste Fonctionnel N2 — CGI
-**Juil 2022 – Oct 2023**
-- Diagnostic d'incidents (Jira, logs) et outils internes (Python, Bash)
-- Travail en environnement critique (EDF)
-
-## Technicien Avionique — Armée de Terre
-**Mar 2010 – Juin 2021**
-- Diagnostic de systèmes embarqués complexes, documentation en anglais
 
 # EDUCATION
 title: [fa:solid:graduation-cap] Formations
