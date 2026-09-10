@@ -1,7 +1,7 @@
 :root {
     --margin-icon : 27px;
     --skills-wrap-indent: 25px;
-    --vertical-line-experience-height: 90px;
+    --vertical-line-experience-height: 70px;
     --vertical-line-education-height: 50px;
 }
 
@@ -501,5 +501,5 @@ main {
 }
 
 #languages{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
