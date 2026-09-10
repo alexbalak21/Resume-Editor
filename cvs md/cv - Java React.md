@@ -1,3 +1,5 @@
+<!-- CV Java / React -->
+
 # HEADER
 Alexandre Balakirev  
 Développeur Full‑Stack Java / React  
