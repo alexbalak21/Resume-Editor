@@ -6,9 +6,7 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Java, Spring Boot** / **React Js / TypeScript**, capable de concevoir, développer et livrer des applications complètes de A à Z, avec un mindset pragmatique orienté résultat. <br>
-Ancien technicien avionique dans l'armée de Terre, à l'aise dans les environnements exigeants du secteur aéronautique. <br>
-Rigoureux, orienté service et curieux, j'utilise au quotidien des outils d'IA générative (Copilot, Claude) pour accélérer et fiabiliser mon développement.
+Développeur **Java, Spring Boot** / **React Js / TypeScript**, capable de concevoir, développer et livrer des applications complètes de A à Z, avec un mindset pragmatique orienté client et résultat.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -25,7 +23,7 @@ title: [fa:solid:screwdriver-wrench] Compétences
 - [fa:solid:database] PostgreSQL / MySQL (Optimisation SQL)
 - [fa:solid:robot] IA générative : Copilot, Claude
 - [fa:solid:bug] Analyse d'incidents, diagnostic, reproduction et correction logicielle
-- [fa:solid:server] **Dev complémentaire** : Python, Node, PHP, Go
+- [fa:solid:server] **Dev Tech** : Python, Node, PHP, Go
 - [fa:solid:gears] **CI/CD** : GitHub Actions / GitLab CI
 - [fa:brands:docker] Docker / Déploiement sur serveur
 - [fa:brands:git-alt] **Git** : Bonnes pratiques, revue de code
@@ -43,6 +41,8 @@ title: [fa:solid:certificate] Certifications
 title: [fa:solid:language] Langues
 - Anglais — Courant - C1
 - Allemand — Notions
+- Russe — Langue maternelle
+
 
 # HOBBIES
 title: [fa:solid:person-running] Centres d'intérêt
@@ -63,7 +63,7 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
 - Développement ERP Sage X3 (L4G, SQL)
-- Développement d'application de ticketing (Spring Boot, JPA, React)
+- Développement d'application de ticketing (Spring Boot, React)
 - Intégration SQL / JPA pour les modules métier
 - Conception de services REST et logique métier
 
@@ -79,7 +79,7 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 - Création du site vitrine (HTML, CSS, JS, PHP)
 - Intégration responsive et optimisation UX
 
-## Analyste Fonctionnel N2 — CGI (programme EDF, nouveaux réacteurs nucléaires)
+## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
 - Support et diagnostic sur applications métier en environnement industriel exigeant
 - Analyse de logs, reproduction d'anomalies
