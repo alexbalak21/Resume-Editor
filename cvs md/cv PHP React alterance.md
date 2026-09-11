@@ -1,28 +1,27 @@
-<!-- CV Alternance - Full-Stack Node.js / React -->
+<!-- CV Alternance Pilot'in - Full-Stack PHP/React -->
 
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack Node.js / React  
+Développeur Full‑Stack PHP / Javascript / React  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Full-Stack multi-technique** (Java, Python, Node.js, React), en **Licence Pro DevOps à Lyon 1** et en recherche d'une alternance 2026–2027. <br>
-Autonome, rigoureux et motivé, j'aime apprendre vite, monter en compétences sur de nouvelles stacks et contribuer à des projets concrets en équipe.
+Développeur **Full-Stack PHP / Javascript / React**, en **Licence Pro DevOps à Lyon 1** et en recherche d'une alternance 2026–2027. <br>
+Autonome, curieux et polyvalent, j'aime apprendre vite, comprendre le besoin client et contribuer à des projets concrets en équipe.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
 - Téléphone : (+33) 06.58.37.06.05 | tel:+33658370605
 - Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr
 - Localisation : Lyon 8, France
-- Date de naissance : 06/11/1985
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:node-js] Node.js / Express : APIs backend
+- [fa:brands:php] PHP : natif, Composer, Laravel
 - [fa:brands:react] React JS : composants, hooks, intégration front-back
-- [fa:brands:js] JavaScript / TypeScript
+- [fa:brands:js] JavaScript / Tailwind CSS
 - [fa:solid:database] PostgreSQL / MySQL (optimisation SQL)
 - [fa:solid:server] API REST : conception, tests, intégration de flux
 - [fa:brands:docker] Docker : conteneurisation, déploiement
@@ -30,14 +29,13 @@ title: [fa:solid:screwdriver-wrench] Compétences
 - [fa:solid:robot] IA générative : Copilot, Claude
 - [fa:solid:bug] Diagnostic, reproduction et correction d'anomalies
 - [fa:solid:terminal] Bash : scripting, automatisation
-- [fa:solid:server] **Autre Dev** : Java / Spring Boot, PHP / Laravel, Python
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-- [fa:solid:server] IBM Node.js / Express Developer
 - [fa:solid:i] IBM Java Developer
 - [fa:brands:microsoft] Microsoft Python Developer
 - [fa:brands:react] Meta React Developer
+- [fa:solid:server] IBM Node / Express Developer
 
 # LANGUAGES
 title: [fa:solid:language] Langues
@@ -54,7 +52,7 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 
 ## Développeur Full-Stack — Novocib
 **Jul 2025 – Mai 2026**
-- Backend (API : Express.js) et frontend (React JS)
+- Backend (PHP : Laravel) et frontend (React JS)
 - Conception d'API REST, optimisation SQL (PostgreSQL, MySQL)
 - Participation à l'amélioration continue (Git, documentation)
 
