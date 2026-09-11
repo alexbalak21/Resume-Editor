@@ -2,13 +2,13 @@
 
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack PHP / React  
+Développeur Full‑Stack PHP / Javascript / React  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Full-Stack PHP / React**, en **Licence Pro DevOps à Lyon 1** et en recherche d'une alternance 2026–2027. <br>
+Développeur **Full-Stack PHP / Javascript / React**, en **Licence Pro DevOps à Lyon 1** et en recherche d'une alternance 2026–2027. <br>
 Autonome, curieux et polyvalent, j'aime apprendre vite, comprendre le besoin client et contribuer à des projets concrets en équipe.
 
 # CONTACT
@@ -16,8 +16,6 @@ title: [fa:solid:address-card] Contact
 - Téléphone : (+33) 06.58.37.06.05 | tel:+33658370605
 - Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr
 - Localisation : Lyon 8, France
-- Date de naissance : 06/11/1985
-- Permis : Permis B
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences

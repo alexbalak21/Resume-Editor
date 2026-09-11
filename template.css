@@ -1,8 +1,9 @@
 :root {
     --margin-icon : 27px;
     --skills-wrap-indent: 25px;
-    --vertical-line-experience-height: 90px;
+    --vertical-line-experience-height: 70px;
     --vertical-line-education-height: 50px;
+    --padding-languages: 0px;
 }
 
 /* ==========================================================
@@ -501,5 +502,5 @@ main {
 }
 
 #languages{
-    padding-bottom: 50px;
+    padding-bottom: var(--padding-languages);
 }
