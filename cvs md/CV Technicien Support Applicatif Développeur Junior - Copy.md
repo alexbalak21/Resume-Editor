@@ -1,4 +1,4 @@
-<!-- CV Technicien Support Applicatif N2/N3 -->
+<!-- CV Technicien Support Applicatif / Développeur Junior -->
 
 # HEADER
 Alexandre Balakirev  
@@ -8,9 +8,9 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur Web avec une solide expérience en **support applicatif N2/N3**, **analyse d'incidents** et **diagnostic technique**. <br>
+Développeur Web avec une solide expérience en **support applicatif**, **analyse d'incidents** et **diagnostic technique**. <br>
 À l'aise pour comprendre les applications métier, reproduire des anomalies, lire du code et manipuler des données SQL. <br>
-Autonome, rigoureux et orienté service, je m'épanouis dans des rôles combinant support, analyse et environnement de développement.
+Autonome, rigoureux et orienté service, je m'épanouis dans des rôles combinant support, analyse et environnement de développement. Disponible immédiatement.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -22,21 +22,20 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:solid:headset] Support applicatif N1/N2/N3 (tickets, utilisateurs, communication)
+- [fa:solid:headset] Support applicatif N1/N2 (tickets, utilisateurs, communication)
 - [fa:solid:bug] Diagnostic & analyse d'incidents (logs, reproduction, investigation)
 - [fa:solid:database] SQL : requêtes, vérification & correction de données
-- [fa:solid:code] Java : Spring Boot, API REST, intégration
+- [fa:solid:code] Bases en développement : Java / Spring Boot, Python / Flask, PHP / Laravel, Node.js
 - [fa:solid:server] Environnements applicatifs : Windows, Linux, Bash
 - [fa:solid:gears] Compréhension du code & analyse technique
 - [fa:brands:git-alt] Git / CI/CD / outils internes
 - [fa:solid:book] Documentation technique & base de connaissances
 - [fa:solid:ticket] Outils de ticketing : Jira
-- [fa:solid:language] Anglais professionnel courant (C1)
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-- [fa:solid:i] IBM Java Developer
 - [fa:brands:microsoft] Microsoft Python Developer
+- [fa:solid:i] IBM Java Developer
 - [fa:brands:react] Meta React Developer
 - [fa:solid:server] IBM Node.js / Express Developer
 
@@ -44,6 +43,7 @@ title: [fa:solid:certificate] Certifications
 title: [fa:solid:language] Langues
 - Anglais — Courant (C1)
 - Allemand — Notions de base
+- Russe — Langue maternelle
 
 # HOBBIES
 title: [fa:solid:person-running] Centres d'intérêt
@@ -59,7 +59,7 @@ title: [fa:solid:briefcase] Expérience professionnelle
 - Diagnostic d'incidents : logs, reproduction, analyse technique
 - Prise en charge des tickets utilisateurs (Jira)
 - Correction N1/N2 et suivi complet des incidents
-- Développement d'une application Python pour l'analyse SLA
+- Développement d'outils internes (Python, Bash)
 - Rédaction de documentation technique
 
 ## Développeur SAGE X3 / Support N3 — Kardol
@@ -70,7 +70,7 @@ title: [fa:solid:briefcase] Expérience professionnelle
 - Collaboration avec les équipes techniques pour les correctifs
 
 ## Développeur Full-Stack — Novocib
-**Fév 2024 – Mai 2026**
+**Fév 2024 – Fév 2026**
 - Maintenance et amélioration d'applications internes
 - Correction de bugs, optimisation SQL, refactoring
 - Développement d'APIs (Java, Python, Node.js)
@@ -87,6 +87,7 @@ title: [fa:solid:briefcase] Expérience professionnelle
 - Diagnostic de systèmes embarqués critiques
 - Analyse de pannes complexes
 - Documentation technique en anglais
+- Travail en environnement exigeant et procédural
 
 # EDUCATION
 title: [fa:solid:graduation-cap] Formation
