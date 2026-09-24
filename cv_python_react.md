@@ -1,15 +1,16 @@
-<!-- CV Python / React -->
+<!-- CV Développeur Full-stack Python / React -->
 
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack Python / React  
+Développeur Full‑Stack Python / JavaScript  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur Full‑Stack **Python** / **React Js**, capable de concevoir et livrer des applications web complètes, backend comme frontend. <br>
-Autonome et rigoureux, je m'adapte vite et apprécie les environnements multi-technologies et exigeants.
+Développeur Full-Stack **Python** / **React Js**, spécialisé dans la création d'**APIs REST**, de services métier et d'applications web. <br>
+Je suis capable de analyser le besoin de l'utilisateur, rediger des specs et concevoir et developpeur des applications completes.
+Autonome, rigoureux et curieux, j'apprécie les environement chalanagants et 
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -21,28 +22,26 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:python] Python : Django, Flask, FastAPI
-- [fa:solid:server] API REST : conception, développement, intégration
-- [fa:brands:react] React / Next.js : JavaScript / TypeScript
-- [fa:solid:code] Frontend : HTML5, CSS3, Tailwind CSS
+- [fa:brands:python] Python : Flask, Django, Tkinter
+- [fa:solid:server] API REST : conception, développement
+- [fa:brands:js] JavaScript / TypeScript : React, Vue.js
 - [fa:solid:database] Bases de données : PostgreSQL, MySQL
-- [fa:solid:layer-group] ORM : Django ORM, SQLAlchemy, JPA
-- [fa:brands:docker] Docker : conteneurisation et déploiement
-- [fa:brands:git-alt] Git / GitHub : versionning, CI/CD
-- [fa:solid:terminal] Linux : Bash, Shell, scripting
-- [fa:solid:code] Architecture : MVC, Clean Code, Design Patterns
-- [fa:solid:bug] Maintenance : debug, optimisation, correction d'anomalies
+- [fa:solid:code] HTML / CSS / Bootstrap
+- [fa:brands:docker] Docker : conteneurisation, déploiement
+- [fa:brands:git-alt] Git / CI/CD : GitHub Actions, GitLab CI
+- [fa:solid:terminal] Linux / Bash : scripting, automatisation
+- [fa:solid:bug] Diagnostic, reproduction et correction d'anomalies
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
 - [fa:brands:microsoft] Microsoft Python Developer
 - [fa:solid:i] IBM Java Developer
 - [fa:brands:react] Meta React Developer
-- [fa:solid:server] IBM Node.js / Express Developer
+- [fa:solid:server] IBM Node / Express Developer
 
 # LANGUAGES
 title: [fa:solid:language] Langues
-- Anglais — Courant (C1)
+- Anglais — Courant - C1
 - Allemand — Notions
 
 # HOBBIES
@@ -54,39 +53,40 @@ title: [fa:solid:person-running] Centres d'intérêt
 title: [fa:solid:briefcase] Expériences Professionnelles
 
 ## Développeur Backend Python — Novocib
-**Jul 2025 – Fév 2026**
-- APIs REST Flask (Blueprints, middlewares)
+**Jul 2025 – Mai 2026**
+- Développement d'APIs REST (Flask)
 - Optimisation backend & SQL (PostgreSQL)
-- Développement de services Python
+- Développement de services Python pour outils internes
 - Automatisation (Python, Bash)
-- Amélioration continue & revues de code
+- Amélioration continue, refactoring, revues de code
+- Rédaction de tests unitaires et fonctionnels
+- Collaboration avec les équipes métier pour cadrer les besoins
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
-- Développement d'applications métier (L4G)
-- Backend Java / Spring Boot
-- Frontend React JS
-- Maintenance & évolution ERP
+- Développement d'applications métier (L4G, Java, REST API)
 - Intégration SQL / JPA
+- Maintenance & évolution de l'ERP
+- Frontend React JS pour interfaces internes
 
 ## Développeur Python / React — Novocib
 **Fév 2024 – Mai 2024**
-- Développement site web (Django + React)
+- Développement du site web (Django + React)
 - APIs REST Flask / Django
-- Scripts Python (automatisation, parsing)
-- Interfaces React (components, routing)
+- Scripts Python (automatisation, parsing, ETL)
 - Optimisation SQL & performances Python
+- Intégration front-back entre React et les services Django/Flask
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic d'incidents complexes
+- Diagnostic d'incidents complexes (logs, reproduction)
 - Automatisation Python (extraction, reporting)
 - Analyse SQL & support applicatif
-- Environnement critique & Agile
+- Documentation technique & environnement critique
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
-- Diagnostic systèmes électroniques
+- Diagnostic de systèmes embarqués complexes
 - Analyse & résolution de pannes
 - Documentation technique en anglais
 
@@ -98,5 +98,5 @@ CMFP (AFPA), Fontenay-le-Comte
 **Août 2020 – Juin 2021**
 
 ## Licence Aéronautique
-Armée de l'Air, BA721  
+Armée de l'air, BA721  
 **Juin 2011 – Juin 2012**

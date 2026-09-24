@@ -1,13 +1,15 @@
+<!-- CV Python / React -->
+
 # HEADER
 Alexandre Balakirev  
-Développeur Web / Applicatif Multi-Technique  
+Développeur Full‑Stack Python / React  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **polyvalent** (PHP, Python, Java, JavaScript), capable de concevoir et développer des applications complètes de A à Z. <br>
-Autonome, je m'adapte vite à une nouvelle stack et apprécie le travail en équipe.
+Développeur Full‑Stack **Python** / **React Js**, capable de concevoir et livrer des applications web complètes, backend comme frontend. <br>
+Autonome et rigoureux, je m'adapte vite et apprécie les environnements multi-technologies et exigeants.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -19,28 +21,28 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:php] PHP : natif, Composer, Laravel
-- [fa:brands:python] Python : Flask, Django, FastAPI
-- [fa:brands:java] Java : Spring Boot, API REST
-- [fa:brands:js] JavaScript / TypeScript : React, Vue.js
-- [fa:solid:database] SQL : PostgreSQL, MySQL, SQL Server
+- [fa:brands:python] Python : Flask, FastAPI, Tkinter
 - [fa:solid:server] API REST : conception, développement, intégration
-- [fa:solid:gears] Architecture : MVC, Clean Code, Design Patterns
-- [fa:solid:bug] Analyse, diagnostic, reproduction et correction d'anomalies
-- [fa:brands:docker] Docker : conteneurisation, déploiement
-- [fa:solid:gears] CI/CD : GitHub Actions / GitLab CI
-- [fa:solid:ticket] Rédaction de spécifications, gestion de tickets (Jira)
+- [fa:brands:react] React : JavaScript / TypeScript
+- [fa:solid:code] Frontend : HTML5, CSS3, Tailwind CSS
+- [fa:solid:database] Bases de données : PostgreSQL, MySQL
+- [fa:solid:layer-group] ORM : Django ORM, SQLAlchemy, JPA
+- [fa:brands:docker] Docker : conteneurisation et déploiement
+- [fa:brands:git-alt] Git / GitHub : versionning, CI/CD
+- [fa:solid:terminal] Linux : Bash, Shell, scripting
+- [fa:solid:code] Architecture : MVC, Clean Code, Design Patterns
+- [fa:solid:bug] Maintenance : debug, optimisation, correction d'anomalies
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-- [fa:solid:i] IBM Java Developer
 - [fa:brands:microsoft] Microsoft Python Developer
+- [fa:solid:i] IBM Java Developer
 - [fa:brands:react] Meta React Developer
-- [fa:solid:server] IBM Node / Express Developer
+- [fa:solid:server] IBM Node.js / Express Developer
 
 # LANGUAGES
 title: [fa:solid:language] Langues
-- Anglais — Courant - C1
+- Anglais — Courant (C1)
 - Allemand — Notions
 
 # HOBBIES
@@ -51,42 +53,42 @@ title: [fa:solid:person-running] Centres d'intérêt
 # EXPERIENCE
 title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Développeur Full-Stack — Novocib
-**Jul 2025 – Mai 2026**
-- Développement backend (PHP/Laravel et Python/Flask selon les projets) et frontend (React JS)
-- Conception et maintenance d'API REST
-- Optimisation SQL et performances
-- Participation aux revues de code et à l'amélioration continue
+## Développeur Backend Python — Novocib
+**Jul 2025 – Fév 2026**
+- APIs REST Flask (Blueprints, Auth)
+- Optimisation backend & SQL (PostgreSQL)
+- Développement de services Python
+- Automatisation (Python, Bash)
+- Amélioration continue & revues de code
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
-- Développement ERP Sage X3 (L4G, SQL)
-- Développement d'une application interne (Java/Spring Boot, PHP, React, MySQL)
-- Conception de services REST et logique métier
-- Maintenance et correction d'anomalies
+- Développement d'applications métier (L4G)
+- Backend Java / Spring Boot
+- Frontend React JS
+- Maintenance & évolution ERP
+- Intégration SQL / JPA
 
-## Développeur Web — Novocib
+## Développeur Python / React — Novocib
 **Fév 2024 – Mai 2024**
-- Backend (PHP, Python, MySQL) et frontend (React, HTML, CSS, Bootstrap)
-- Intégration front-back (REST, DTO, MVC)
-- Automatisation de tâches (Python, Powershell)
+- Développement site web (Flask jinja2)
+- APIs REST Flask / Swagger
+- Scripts Python (automatisation, parsing)
+- Interfaces React (components, routing)
+- Optimisation SQL & performances Python
 
-## Développeur Web — Fly'IT
-**Oct 2023 – Nov 2023**
-- Création du site vitrine (HTML, CSS, JS, PHP)
-- Intégration responsive et optimisation UX
-
-## Analyste Fonctionnel N2 — CGI
+## Analyste Fonctionnel N2 / Dev Python — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic et résolution d'incidents (Jira, logs, reproduction)
-- Développement d'outils internes (Python, Bash)
-- Rédaction de documentation technique
-- Travail en environnement critique (EDF)
+- Diagnostic d'incidents complexes
+- Developpemement Python (Tkinter, Script automatisation)
+- Analyse SQL & support applicatif
+- Environnement critique & Agile
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
-- Diagnostic de systèmes embarqués complexes
-- Travail en anglais sur documentation technique
+- Diagnostic systèmes électroniques
+- Analyse & résolution de pannes
+- Documentation technique en anglais
 
 # EDUCATION
 title: [fa:solid:graduation-cap] Formations
@@ -96,5 +98,5 @@ CMFP (AFPA), Fontenay-le-Comte
 **Août 2020 – Juin 2021**
 
 ## Licence Aéronautique
-Armée de l'air, BA721  
+Armée de l'Air, BA721  
 **Juin 2011 – Juin 2012**
