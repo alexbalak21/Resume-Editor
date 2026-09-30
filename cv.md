@@ -1,15 +1,13 @@
-<!-- CV NODE / REACT -->
-
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack Node.js / React Js  
+Développeur Java / Spring Boot  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Node.js / TypeScript** et **React Js**, capable de concevoir des API REST et des interfaces utilisateur de bout en bout. <br>
-Autonome, curieux et force de proposition, j'aime contribuer à des projets techniques ambitieux et apprendre vite sur de nouvelles stacks.
+Développeur **Java / Spring Boot** orienté backend, capable de concevoir, développer et livrer des API REST robustes et maintenables. <br>
+Rigoureux et autonome, je m'adapte vite à un environnement technique existant et apprécie les architectures exigeantes.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -21,24 +19,23 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:node-js] Node.js / Express : API REST, services backend
-- [fa:brands:react] React / Next.js : composants, hooks, intégration front-back
-- [fa:brands:js] JavaScript / TypeScript
-- [fa:solid:database] PostgreSQL / MySQL (optimisation SQL)
-- [fa:solid:server] API REST : conception, tests, intégration de flux
+- [fa:brands:java] Java 17+ / Spring Boot, Spring Security (API REST / Backend)
+- [fa:solid:database] PostgreSQL / MySQL (SQL, JPA, NoSQL)
+- [fa:solid:bug] Tests unitaires (JUnit), refactoring, qualité de code
+- [fa:solid:gears] Structuration des services (Controller, Service, Repository)
+- [fa:brands:git-alt] Git / Maven : bonnes pratiques, revue de code
 - [fa:brands:docker] Docker : conteneurisation, déploiement
 - [fa:solid:gears] CI/CD : GitHub Actions / GitLab CI
 - [fa:solid:robot] IA générative : Copilot, Claude
-- [fa:solid:bug] Diagnostic, reproduction et correction d'anomalies
-- [fa:solid:terminal] Bash : scripting, automatisation
-- [fa:solid:server] **Autre Dev** : Java / Spring Boot, PHP / Laravel, Python
+- [fa:solid:ticket] Méthodologie Agile : Jira, tickets, itérations
+- [fa:solid:server] **Dev complémentaire** : Python, React JS, Node, PHP
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
-- [fa:solid:server] IBM Node.js / Express Developer
 - [fa:solid:i] IBM Java Developer
 - [fa:brands:microsoft] Microsoft Python Developer
 - [fa:brands:react] Meta React Developer
+- [fa:solid:server] IBM Node / Express Developer
 
 # LANGUAGES
 title: [fa:solid:language] Langues
@@ -53,40 +50,38 @@ title: [fa:solid:person-running] Centres d'intérêt
 # EXPERIENCE
 title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Développeur Full-Stack — Novocib
+## Développeur Backend Java — Novocib
 **Jul 2025 – Mai 2026**
-- Backend (API : Express.js) et frontend (React JS)
-- Conception d'API REST, optimisation SQL (PostgreSQL, MySQL)
-- Participation à l'amélioration continue (Git, documentation)
+- Développement backend (Spring Boot, PostgreSQL, JPA)
+- Conception, développement d'API REST (Spring Web, Security)
+- Optimisation SQL et performances backend
+- Tests unitaires (JUnit) et refactoring
+- Structuration des services (Controller, Service, Repository)
+- Gestion des logs et monitoring (Actuator)
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
 - Développement ERP Sage X3 (L4G, SQL)
-- Développement d'application (Spring Boot, JPA, React, MySQL)
-- Optimisation de modules internes et correction d'anomalies
+- Conception de services REST et logique métier
+- Maintenance, évolution et optimisation d'applications Java
+- Intégration SQL / JPA pour les modules métier
 
-## Développeur Full-Stack JS — Novocib
+## Développeur Full-Stack Java — Novocib
 **Fév 2024 – Mai 2024**
-- Backend Node.js (API REST, middlewares, services internes)
-- Interfaces React (components, routing)
-- Automatisation (Python, Powershell, scripts Node.js)
-- Intégration front-back et pipelines internes
-
-## Développeur Web — Fly'IT
-**Oct 2023 – Nov 2023**
-- Création du site vitrine (HTML, CSS, JS, PHP)
-- Intégration responsive et optimisation UX
+- Développement backend et APIs internes (Spring Boot, MySQL)
+- Intégration front-back (REST, DTO, services Spring)
+- Optimisation des requêtes SQL et performances backend
 
 ## Analyste Fonctionnel N2 — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic d'incidents (Jira, logs) et outils internes (Python, Bash)
-- Travail en environnement critique (EDF)
-- Rédaction de procédures techniques
+- Diagnostic et résolution d'incidents logiciels
+- Analyse de logs, reproduction d'anomalies
+- Participation à la maintenance d'applications Java
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
 - Diagnostic de systèmes embarqués complexes
-- Respect strict des normes et procédures de sécurité
+- Travail en anglais sur documentation technique
 
 # EDUCATION
 title: [fa:solid:graduation-cap] Formations
