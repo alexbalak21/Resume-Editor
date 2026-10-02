@@ -8,7 +8,7 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **Python (Flask, FastAP, Applications)**, capable de concevoir et livrer des API et services backend robustes. <br>
+Développeur **Python (Flask, Django)**, capable de concevoir et livrer des API et services backend robustes. <br>
 Autonome et rigoureux, je m'adapte vite et apprécie le travail en équipe et les environnements multi-techniques.
 
 # CONTACT
@@ -21,7 +21,7 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:python] Python : Flask, FastAPI, Tkinter
+- [fa:brands:python] Python : Flask, Django, FastAPI
 - [fa:solid:server] API REST : conception, développement, intégration
 - [fa:solid:database] Bases de données : PostgreSQL, MySQL
 - [fa:solid:layer-group] ORM : SQLAlchemy, Django ORM, JPA
@@ -56,26 +56,28 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 ## Développeur Backend Python — Novocib
 **Jul 2025 – Fév 2026**
 - APIs REST Flask (Blueprints, middlewares)
-- Optimisation backend & SQL (PostgreSQL, SQLAlchemy, SQL)
-- Développement Python app et services  (RestAPI, App Desktop)
-- Automatisation (Python scripting, conversion de donnees)
+- Optimisation backend & SQL (PostgreSQL)
+- Développement de app et services en Python (API, App Desktop)
+- Automatisation (Python scripting, Bash)
 - Amélioration continue & revues de code
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
-- Développement d'applications métier (Sage X3, L4G, SQL)
-- Développement Backend Java / Spring Boot (Security, JPA) 
-- Développement React JS (Components, Hooks, Services, Tailwind)
-- Maintenance & évolution ERP (Passage de versions)
+- Développement d'applications métier (L4G)
+- Backend Java / Spring Boot
+- Frontend React JS
+- Maintenance & évolution ERP
+- Intégration SQL / JPA
 
 ## Développeur Python / React — Novocib
 **Fév 2024 – Mai 2024**
-- Développement site web (Flask, MySQL, Jinja, Bootstarp)
-- Développement de services API et Frontend (FastAPI, React Js) 
-- Scripts Python (Automatisation, Generation de documents)
+- Développement site web (Django + React)
+- Développement de services API et Frontend (FastAPI+React) 
+- Scripts Python (automatisation, parsing)
+- Interfaces React (components, routing)
 - Optimisation SQL & performances Python
 
-## Analyste Fonctionnel / Dev Python — CGI
+## Analyste Fonctionnel N2 / Dev Python — CGI
 **Juil 2022 – Oct 2023**
 - Diagnostic d'incidents complexes
 - Développement d'app en Python pour analyse SLA 

@@ -1,3 +1,5 @@
+<!-- Développeur Java / Spring Boot  -->
+
 # HEADER
 Alexandre Balakirev  
 Développeur Java / Spring Boot  
@@ -7,7 +9,7 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 # PROFILE
 title: [fa:solid:user] Profil
 Développeur **Java / Spring Boot** orienté backend, capable de concevoir, développer et livrer des API REST robustes et maintenables. <br>
-Rigoureux et autonome, je m'adapte vite à un environnement technique existant et apprécie le travail en équipe sur des projets Agile/Scrum.
+Rigoureux et autonome, je m'adapte vite à un environnement technique existant et apprécie les architectures exigeantes.
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -20,10 +22,10 @@ title: [fa:solid:address-card] Contact
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
 - [fa:brands:java] Java 17+ / Spring Boot, Spring Security (API REST / Backend)
-- [fa:solid:database] PostgreSQL / MySQL (optimisation SQL, JPA)
+- [fa:solid:database] PostgreSQL / MySQL (SQL, JPA, NoSQL)
 - [fa:solid:bug] Tests unitaires (JUnit), refactoring, qualité de code
 - [fa:solid:gears] Structuration des services (Controller, Service, Repository)
-- [fa:brands:git-alt] Git : bonnes pratiques, revue de code
+- [fa:brands:git-alt] Git / Maven : bonnes pratiques, revue de code
 - [fa:brands:docker] Docker : conteneurisation, déploiement
 - [fa:solid:gears] CI/CD : GitHub Actions / GitLab CI
 - [fa:solid:robot] IA générative : Copilot, Claude
