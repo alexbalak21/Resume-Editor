@@ -1,0 +1,3 @@
+Retirer les revues de codes de novocib
+Ajouter les test unitaires d'integartion chez Kardol et la realisation de doc
+Ajouter Fly'IT à CGI

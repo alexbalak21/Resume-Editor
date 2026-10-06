@@ -1,16 +1,14 @@
-<!-- CV Développeur Full-stack PHP / Javascript -->
-
 # HEADER
 Alexandre Balakirev  
-Développeur Full‑Stack PHP / JavaScript  
+Développeur Full‑Stack Java / React  
 LinkedIn: @alexandre-balakirev | https://linkedin.com/in/alexandre-balakirev  
 Site web: www.alex-balak.online | https://www.alex-balak.online
 
 # PROFILE
 title: [fa:solid:user] Profil
-Développeur **PHP (natif / Laravel)** et **JavaScript**, avec une expérience complémentaire en Java. <br>
-Autonome, rigoureux et curieux, j'aime comprendre le métier client, de l'analyse des besoins jusqu'à la mise en production. <br>
-Ouvert à monter en compétences sur le développement mobile.
+Développeur **Java, Spring Boot** / **React Js**, capable de concevoir, développer et livrer des applications complètes. <br>
+Rigoureux et autonome, je m'adapte vite et apprécie les environnements multi‑technologies et variés.
+
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -22,16 +20,17 @@ title: [fa:solid:address-card] Contact
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
-- [fa:brands:php] PHP : natif, Composer, Laravel
-- [fa:brands:js] JavaScript : Vue.js, jQuery
-- [fa:solid:code] HTML / CSS
-- [fa:brands:java] Java : Spring Boot, API REST
-- [fa:solid:database] SQL : MySQL, PostgreSQL, SQL Server
-- [fa:solid:bug] Diagnostic, reproduction et correction d'incidents
-- [fa:brands:git-alt] Git / SVN : bonnes pratiques, revue de code
+- [fa:brands:java] Java / Spring Boot (API REST / Backend)
+- [fa:brands:react] React JS : Components, Hooks, Axios
+- [fa:solid:database] PostgreSQL / MySQL (Optimisation SQL)
+- [fa:solid:bug] Tests unitaires (JUnit), refactoring, qualité de code
+- [fa:solid:robot] IA générative : Copilot, Claude
+- [fa:solid:server] **Autre Dev** : Python, Node, PHP
 - [fa:solid:gears] CI/CD : GitHub Actions / GitLab CI
-- [fa:brands:docker] Docker / Déploiement
-- [fa:solid:ticket] Rédaction de spécifications, gestion de tickets (Jira)
+- [fa:brands:docker] Docker / Déploiement sur serveur
+- [fa:brands:git-alt] Git : Bonnes pratiques, revue de code
+- [fa:solid:terminal] Bash : Scripting, Automatisation
+- [fa:solid:ticket] Méthodologie Agile / Scrum (Jira, Zendesk)
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
@@ -53,36 +52,39 @@ title: [fa:solid:person-running] Centres d'intérêt
 # EXPERIENCE
 title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Développeur Full-Stack PHP — Novocib
+## Développeur Backend Java — Novocib
 **Jul 2025 – Mai 2026**
-- Développement backend PHP (Laravel, MySQL)
-- Conception et maintenance d'API REST
-- Optimisation de performances et requêtes SQL
+- Développement backend (Spring Boot, JPA, PostgreSQL)
+- Conception, développement d'API REST (Spring Web, Security)
+- Optimisation SQL et performances backend
+- Tests unitaires (JUnit) et refactoring
+- Structuration des services (Controller, Service, Repository)
 
-
-## Développeur SAGE X3 — Kardol
+## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**
 - Développement ERP Sage X3 (L4G, SQL)
-- Développement d'une application interne (PHP, React, MySQL)
+- Développement d'application de ticketing (Spring Boot, JPA, React)
+- Intégration SQL / JPA pour les modules métier
 - Conception de services REST et logique métier
 
-## Développeur Full-Stack PHP — Novocib
+## Développeur Full-Stack Java — Novocib
 **Fév 2024 – Mai 2024**
-- Développement Backend : PHP / MySQL
-- Développement frontend : HTML, CSS, JS, Bootstrap
-- Automatisation (Python, Powershell)
+- Développement backend et APIs internes (Spring Boot, MySQL)
+- Développement frontend (React JS, Tailwind)
+- Intégration front - back (REST, DTO, MVC)
+- Optimisation des requêtes SQL et performances backend
 
 ## Développeur Web — Fly'IT
 **Oct 2023 – Nov 2023**
 - Création du site vitrine (HTML, CSS, JS, PHP)
 - Intégration responsive et optimisation UX
 
-## Analyste Fonctionnel N2 — CGI
+## Analyste Fonctionnel / Dev Python — CGI
 **Juil 2022 – Oct 2023**
-- Diagnostic et résolution d'incidents (Jira, logs, reproduction)
-- Rédaction de documentation technique
+- Diagnostic et résolution d'incidents logiciels
+- Analyse de logs, reproduction d'anomalies
 - Développement d'outils internes (Python, Bash)
-- Travail en environnement critique (EDF)
+- Participation à la maintenance d'applications Java
 
 ## Technicien Avionique — Armée de Terre
 **Mar 2010 – Juin 2021**
