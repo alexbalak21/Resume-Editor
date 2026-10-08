@@ -24,13 +24,13 @@ title: [fa:solid:screwdriver-wrench] Compétences
 - [fa:solid:database] SQL : MySQL, PostgreSQL: requêtes, optimisation, JPA
 - [fa:solid:bug] Tests unitaires (JUnit), qualification applicative, analyse d'anomalies
 - [fa:solid:gears] Architecture de services : Controller, Service, Repository
-- [fa:brands:js] JavaScript : React JS, Vue.js, Svelte
+- [fa:brands:js] JavaScript : React JS, Vue.js, Angular
 - [fa:solid:code] HTML, CSS, Bootstrap, Tailwind
 - [fa:brands:git-alt] Git : bonnes pratiques, revue de code
 - [fa:solid:gears] CI/CD : GitHub Actions, Jenkins
 - [fa:brands:docker] Docker / Déploiement
 - [fa:solid:ticket] Méthodologie Agile / Scrum (Jira): tickets, itérations
-- [fa:brands:python] Python : automatisation, scripting, RestAPI (Flask)
+- [fa:brands:python] Python : automatisation, scripting (Bash)
 
 # CERTIFICATIONS
 title: [fa:solid:certificate] Certifications
@@ -54,12 +54,10 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 
 ## Développeur Backend Java — Novocib
 **Jul 2025 – Mai 2026**
-- Développement Backend (Spring Boot, JPA, PostgreSQL)
-- Tests unitaires (JUnit), refactoring et monitoring (Actuator)
+- Développement backend (Spring Boot, JPA, PostgreSQL)
 - Conception et développement d'API REST (Spring Web, Security)
-- Développement Frontend (React JS, Axios, Tailwind CSS)
-
-
+- Tests unitaires (JUnit), refactoring et monitoring (Actuator)
+- Analyse et résolution d'anomalies, suivi des livraisons
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct 2024 – Avr 2025**

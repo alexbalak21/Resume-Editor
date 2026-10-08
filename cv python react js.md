@@ -11,7 +11,8 @@ Site web: www.alex-balak.online | https://www.alex-balak.online
 title: [fa:solid:user] Profil
 
 Développeur Full‑Stack **Python** / **React JS**, capable de concevoir et de livrer des applications web complètes, du backend au frontend. <br>
-Autonome, rigoureux et doté d'un fort esprit d'analyse, je m'adapte rapidement aux nouveaux environnements techniques et apprécie les contextes exigeants et multi-technologies.
+Autonome, rigoureux et curieux, j'aime comprendre le métier et le besoin du client, et concevoir et développer une solution adaptée.
+
 
 # CONTACT
 title: [fa:solid:address-card] Contact
@@ -20,7 +21,7 @@ title: [fa:solid:address-card] Contact
 - Email : alex.balak@outlook.fr | mailto:alex.balak@outlook.fr
 - Localisation : Lyon 8, France
 - Date de naissance : 06/11/1985
-- Permis : B
+- Permis : Permis B, Vehiculé
 
 # SKILLS
 title: [fa:solid:screwdriver-wrench] Compétences
@@ -60,13 +61,13 @@ title: [fa:solid:person-running] Centres d'intérêt
 # EXPERIENCE
 title: [fa:solid:briefcase] Expériences Professionnelles
 
-## Développeur Backend Python — Novocib
+## Développeur Python / React — Novocib
 **Juil. 2025 – Fév. 2026**
 
-- Développement d'API REST avec Flask (Blueprints, Authentification)
-- Développement Frontend avec React et Tailwind
-- Optimisation backend et SQL (PostgreSQL)
-- Développement de services Python
+- Développement d'API REST avec Flask (Blueprints, SQL, Auth)
+- Optimisation backend et SQL (SQLAlchemy, PostgreSQL)
+- Développement Frontend (React JS, Axios, Tailwind CSS)
+- Développement de services et apps Python (RestAPI, Tkinter)
 
 ## Développeur SAGE X3 / Java — Kardol
 **Oct. 2024 – Avr. 2025**
@@ -75,23 +76,23 @@ title: [fa:solid:briefcase] Expériences Professionnelles
 - Développement Backend Java / Spring Boot
 - Développement Frontend React JS
 - Maintenance et évolution de l'ERP
-- Intégration SQL / JPA
+- Intégration RestAPI, Controller, Repo : SQL / JPA
 
 ## Développeur Python / React — Novocib
 **Fév. 2024 – Mai 2024**
 
-- Développement d'un site web avec Flask et Jinja2
+- Développement d'un site web avec Flask et Jinja
 - Développement d'API REST avec Flask / Swagger
 - Développement de scripts Python (automatisation, parsing)
 - Développement d'interfaces React (composants, routage)
 
-## Analyste Fonctionnel N2 — CGI
+## Analyste Fonctionnel / Dev Python - CGI
 **Juil. 2022 – Oct. 2023**
 
-- Diagnostic d'incidents complexes
+- Diagnostic et résolution d'incidents complexes
 - Développement Python (Tkinter, scripts d'automatisation)
-- Analyse SQL et support applicatif
-- Travail en environnement critique et Agile
+- Support applicatif N2, gestion d'incidents et tickets sur Jira
+- Travail en équipe dans un environnement Agile
 
 ## Technicien Avionique — Armée de Terre
 **Mars 2010 – Juin 2021**
